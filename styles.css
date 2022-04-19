@@ -39,7 +39,9 @@ header {
     display: inline-block;
     color: white;
     font-family: jockey one;
-    /* display: inline; */
+    position: relative;
+    left: 50%;
+    transform: translate(-150px);
 }
 
 @font-face {

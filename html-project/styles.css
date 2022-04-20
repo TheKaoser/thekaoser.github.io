@@ -24,11 +24,12 @@
 
 #contact {
     float:right;
+    margin: 5px;
 }
 
 header {
     background-color: black;
-    padding: 10px;
+    padding: 1%;
 }
 
 #logo {
@@ -38,13 +39,15 @@ header {
 #name {
     display: inline-block;
     color: white;
-    font-family: jockey one;
+    /* font-family: Neue Plak,sans-serif!important; */
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    /* font-family: jockey one; */
     position: relative;
     left: 50%;
-    transform: translate(-150px);
+    transform: translate(-210px);
 }
 
 @font-face {
     font-family: "jockey one";
-    src: url(Fonts/Jockey_One/JockeyOne-Regular.ttf);
+    src: url(Fonts/JockeyOne-Regular.ttf);
 }

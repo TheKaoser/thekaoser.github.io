@@ -1,0 +1,45 @@
+.is-family-arial {
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+}
+
+#logo {
+    float:left;
+}
+
+#contact {
+    float:right;
+    margin: 5px;
+}
+
+.zIndex-1 {
+    z-index: 1;   
+}
+
+.zIndex-2 {
+    z-index: 1;   
+}
+
+.zIndex-3 {
+    z-index: 1;   
+}
+
+#video-div {
+    // width: 100%;
+    // padding-bottom: 10%;
+    background: gold;
+    // height: calc(100vh - 16px);
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+#video {
+    position:absolute;
+}
+
+#videoShape {
+    position:absolute;
+}
+
+#me-text {
+    position:relative;
+}

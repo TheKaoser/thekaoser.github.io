@@ -4,8 +4,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-about-me',
   template: `
     <div id="video-div">
-      <video id="video" height="100%" width="100%" autoplay loop>
-          <source type="video/mp4" src="https://user-images.githubusercontent.com/36610851/165623995-5336ad93-1b6c-4a32-b84b-de43fac77a19.mp4" >
+      <video id="video" height="100%" width="100%" autoplay muted loop>
+          <source type="video/mp4" src="assets/videos/Oculus.mp4" >
+          <source type="video/ogg" src="assets/videos/Oculus.ogg" >
       </video>
       <img id="videoShape" src="./assets/imgs/VideoShape.png">
     </div>

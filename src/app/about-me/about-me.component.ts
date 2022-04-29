@@ -1,10 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-about-me',
   template: `
     <div id="video-div">
-      <video id="video" height="100%" width="100%" autoplay muted loop>
+      <video id="video" height="100%" width="100%" autoplay muted loop preload #videoRef>
           <source type="video/mp4" src="assets/videos/Oculus.mp4" >
           <source type="video/ogg" src="assets/videos/Oculus.ogg" >
       </video>
@@ -25,7 +25,16 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
+
 export class AboutMeComponent implements OnInit {
+  
+  ​@ViewChild('videoRef', { static: true }) videoRef!: ElementRef
+
+  ​ngAfterViewInit(): void {
+    ​const media = this.videoRef.nativeElement
+    ​media.muted = true 
+    ​media.play() 
+  ​ } 
 
   constructor() { }
 

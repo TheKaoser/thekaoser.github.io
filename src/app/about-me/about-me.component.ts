@@ -3,15 +3,14 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 @Component({
   selector: 'app-about-me',
   template: `
-    <div id="video-div">
+    <div class="cover-div">
       <img id="splashArt" src="assets/imgs/kaoser.png">
       <img id="videoShape" src="./assets/imgs/VideoShape.png">
-      <p class="navbar-item is-size-4 is-family-arial">Rodrigo Alonso</p>
+      <p id="rodrigo" class="is-size-1 is-family-arial">Rodrigo Alonso</p>
     </div>
       <div id="about-me">
         <div class="me-text title is-family-arial is-size-3">
           GAME DEVELOPER AND PLAYER
-          <hr>
         </div>
         <div class="me-text is-family-sans-serif has-text-left">
             From Playmobil, Magic: The Gathering or Warhammer, I have always enjoyed playing games and creating them my own. It was already before even starting Computer Science BA that I knew I wanted to base my career on it.
@@ -36,6 +35,13 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
     </div>
   `,
   styles: [
+    '#rodrigo { margin: 0; position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%); color: white; }',
+    '#splashArt { position:absolute; }',
+    '#videoShape { position:absolute; }',
+    '#about-me { position: relative; margin-top: 100px; }',
+    '.title { color:mediumpurple; }',
+    '.me-text { width: 50%; margin-left: 50px; margin-top: 15px; font-size: 15px; max-width: 700px; }',
+    '#photo { position: absolute; max-width: 800px; top: -300px; right: 0%; object-fit: cover; }',
   ]
 })
 

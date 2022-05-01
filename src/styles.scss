@@ -2,60 +2,8 @@
     font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
 }
 
-#logo {
-    float:left;
-}
-
-#contact {
-    float:right;
-    margin: 5px;
-}
-
-.zIndex-1 {
-    z-index: 1;   
-}
-
-.zIndex-2 {
-    z-index: 1;   
-}
-
-.zIndex-3 {
-    z-index: 1;   
-}
-
-#video-div {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-}
-
-#splashArt {
-    position:absolute;
-}
-
-#videoShape {
-    position:absolute;
-}
-
-.me-text {
-    width: 50%;
-    margin-left: 50px;
-    margin-top: 15px;
-    font-size: 15px;
-    max-width: 700px;
-}
-
-#about-me {
-    position: relative;
-}
-
-.title {
-    color:mediumpurple
-}
-
-#photo {
-    position: absolute;
-    max-width: 800px;
-    top: -300px;
-    right: 0%;
-    object-fit: cover;
+.cover-div { 
+    aspect-ratio: 16 / 9; 
+    width: 100%; 
+    position: relative; 
 }

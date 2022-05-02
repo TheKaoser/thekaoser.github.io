@@ -7,9 +7,12 @@ import { Component } from '@angular/core';
     <router-outlet></router-outlet>
     <body>
       <app-about-me></app-about-me>
+      <app-skills></app-skills>
     </body>
+    <app-footer></app-footer>
   `,
-  styles: []
+  styles: [
+  ]
 })
 export class AppComponent {
   title = 'portfolio';

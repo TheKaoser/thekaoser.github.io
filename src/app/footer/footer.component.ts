@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
 	</footer>
   `,
   styles: [
-	  'footer { clear:both; }'
+	  
   ]
 })
 export class FooterComponent implements OnInit {

@@ -44,6 +44,8 @@ import { Component, OnInit } from '@angular/core';
     </p> -->
   `,
   styles: [
+	'#skillCards { margin: 100px; }',
+	'.skillCard { width: 25%; margin: 50px; float: left; }',
   ]
 })
 export class SkillsComponent implements OnInit {

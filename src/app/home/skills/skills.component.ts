@@ -1,0 +1,58 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-skills',
+  template: `
+    <div id="skillCards">
+		<div class="card skillCard">
+			<div class="card-content">
+				<p class="is-bold is-size-3">
+					Passionate for coding
+				</p>
+				<p class="is-italic is-size-5">
+					From high level architecture to low level code details
+				</p>
+			</div>
+		</div>
+		<div class="card skillCard">
+			<div class="card-content">
+				<p class="is-bold is-size-3">
+					Object Oriented Designer
+				</p>
+				<p class="is-italic is-size-5">
+					In C++, C#, Typescript, Python...
+				</p>
+			</div>
+		</div>
+		<div class="card skillCard">
+			<div class="card-content">
+				<p class="is-bold is-size-3">
+					Experienced programmer
+				</p>
+				<p class="is-italic is-size-5">
+					Networking, web, databases, multi-threading/async...
+				</p>
+			</div>
+		</div>
+    </div>
+    <!-- <p>
+      My skills cover from high level architecture to low level code details, having extensive experience in object-oriented design, network programming, web technologies, databases, multi-threading and asynchronous programming. 
+      <br><br>
+      My mission is to create the best entertainment possible for players by using this new form of art which I love and in which I will put all my passion, creativity and effort. This is why I also focus on reviewing the games I play, stream on Twitch to discuss about them and program new side projects every day.
+      <br><br>
+      On this web you will find my best projects along with my reviews. Enjoy!
+    </p> -->
+  `,
+  styles: [
+	'#skillCards { margin-top:200px; }',
+	'.skillCard { width: 15%; margin: 9%; float: left; }',
+  ]
+})
+export class SkillsComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}

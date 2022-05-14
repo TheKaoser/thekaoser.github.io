@@ -5,13 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { AboutMeComponent } from './about-me/about-me.component';
-import { SkillsComponent } from './skills/skills.component';
+import { AboutMeComponent } from './home/about-me/about-me.component';
+import { SkillsComponent } from './home/skills/skills.component';
 import { FooterComponent } from './footer/footer.component';
-import { ContactComponent } from './contact/contact.component';
+import { ContactComponent } from './home/contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ReviewsComponent } from './reviews/reviews.component';
+import { AboutProjectsComponent } from './projects/about-projects/about-projects.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ReviewsComponent } from './reviews/reviews.component';
     HomeComponent,
     ProjectsComponent,
     ReviewsComponent,
+    AboutProjectsComponent,
   ],
   imports: [
     BrowserModule,

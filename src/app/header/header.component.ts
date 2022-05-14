@@ -6,9 +6,8 @@ import { Component, OnInit } from '@angular/core';
     <nav class="navbar is-black is-fixed-top py-1" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item ml-2 p-4" routerLink=""><img src="assets/icons/Kaoser.png"></a>
-            <a class="navbar-item is-size-5" routerLink="">RA</a>
-            <a class="navbar-item is-size-5" routerLink="projects">Projects</a>
-            <a class="navbar-item is-size-5" routerLink="reviews">Reviews</a>
+            <a class="navbar-item mx-4 is-size-6 is-italic" routerLink="projects">PROJECTS</a>
+            <a class="navbar-item mx-4 is-size-6 is-italic" routerLink="reviews">REVIEWS</a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarSocials">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>

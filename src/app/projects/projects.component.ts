@@ -3,9 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-projects',
   template: `
-	<div>
-	  projects works!
-  </div>
+	<app-about-projects></app-about-projects>
   `,
   styles: [
   ]

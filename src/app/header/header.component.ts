@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
     selector: 'app-header',
@@ -18,7 +18,7 @@ import { Component, OnInit } from '@angular/core';
             <div class="navbar-end">
                 <a class="navbar-item p-4 mr-3" href="https://github.com/TheKaoser" target="_blank"><img src="assets/icons/GitHub.png"></a>
                 <a class="navbar-item p-4 mr-3" href="https://www.twitch.tv/thekaoser" target="_blank"><img src="assets/icons/Twitch.png"></a>
-                <a class="navbar-item p-4 mr-3" href="https://www.linkedin.com/in/rodrigo-alonso-garcía-amorena/" target="_blank"><img src="assets/icons/Linkedin.png"></a>
+                <!-- <a class="navbar-item p-4 mr-3" href="https://www.linkedin.com/in/rodrigo-alonso-garcía-amorena/" target="_blank"><img src="assets/icons/Linkedin.png"></a> -->
                 <a class="navbar-item p-4 mr-3" href="https://www.youtube.com/channel/UCVJ3aNNjDRFC-OzKfaAbTrQ" target="_blank"><img src="assets/icons/Youtube.png"></a>
             </div>
         </div>
@@ -35,3 +35,4 @@ export class HeaderComponent implements OnInit {
     }
 
 }
+

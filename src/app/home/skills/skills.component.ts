@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
     <div id="skillCards">
 		<div class="card skillCard">
 			<div class="card-content">
+				<img src="assets/imgs/Skill_1.png">
 				<p class="is-bold is-size-3">
 					Passionate for coding
 				</p>
@@ -16,6 +17,7 @@ import { Component, OnInit } from '@angular/core';
 		</div>
 		<div class="card skillCard">
 			<div class="card-content">
+				<img src="assets/imgs/Skill_2.png">
 				<p class="is-bold is-size-3">
 					Object Oriented Designer
 				</p>
@@ -26,11 +28,12 @@ import { Component, OnInit } from '@angular/core';
 		</div>
 		<div class="card skillCard">
 			<div class="card-content">
+				<img src="assets/imgs/Skill_3.png">
 				<p class="is-bold is-size-3">
 					Experienced programmer
 				</p>
 				<p class="is-italic is-size-5">
-					Networking, web, databases, multi-threading/async...
+					Networking, Web, Databases, Multi-Threading, Machine Learning...
 				</p>
 			</div>
 		</div>

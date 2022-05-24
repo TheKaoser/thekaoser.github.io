@@ -30,8 +30,8 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 		'#videoShape { position:absolute; }',
 		'#about-me { position: relative; margin-top: 100px; }',
 		'.title { color:mediumpurple; }',
-		'.me-text { width: 40%; margin-left: 10%; margin-top: 15px; font-size: 15px; max-width: 700px; }',
-		'#photo { position: absolute; max-width: 500px; top: -200px; right: 10%; object-fit: cover; }',
+		'.me-text { width: 40%; margin-left: 15%; margin-top: 15px; font-size: 15px; max-width: 700px; }',
+		'#photo { position: absolute; max-width: 500px; top: -200px; right: 15%; object-fit: cover; }',
 	]
 })
 

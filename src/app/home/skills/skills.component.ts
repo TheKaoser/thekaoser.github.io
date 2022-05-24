@@ -15,7 +15,7 @@ import { Component, OnInit } from '@angular/core';
 				</p>
 			</div>
 		</div>
-		<div class="card skillCard">
+		<div id="midSkillCard" class="card skillCard">
 			<div class="card-content">
 				<img src="assets/imgs/Skill_2.png">
 				<p class="is-bold is-size-3">
@@ -47,8 +47,9 @@ import { Component, OnInit } from '@angular/core';
     </p> -->
   `,
   styles: [
-	'#skillCards { margin-top:200px; }',
-	'.skillCard { width: 15%; margin: 9%; float: left; }',
+	'#skillCards { margin-top: 200px; margin-left: 15%; margin-right: 15%; }',
+	'.skillCard { width: 23%; float: left; margin-bottom: 200px; }',
+	'#midSkillCard { margin-right: 15%; margin-left: 15%; }',
   ]
 })
 export class SkillsComponent implements OnInit {

@@ -10,7 +10,6 @@ import { Component, OnInit } from '@angular/core';
 		<img id="videoShape" src="./assets/imgs/VideoShape.png">
 	</div>
 	<div id="projects">
-		<p>Hola</p>
 	</div>
   `,
 	styles: [

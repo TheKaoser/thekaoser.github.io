@@ -13,9 +13,9 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 			DEVELOPER & PLAYER
 		</div>
      	<div class="me-text is-italic has-text-left is-size-6">
-			From Playmobil, Magic: The Gathering or Warhammer, I have always enjoyed playing games and creating them. It was already before starting Computer Science BA that I knew I wanted to base my career on it. For this, I specialized through a Master's degree in Games afterwards.
+			From Playmobil, Magic: The Gathering or Warhammer, I have always enjoyed playing games and creating them. It was already before starting Computer Science BA that I knew I wanted to base my career on it. For this, I specialized in it through a Master's degree afterwards.
 			<br><br>
-			I have more than 10 games built from scratch. They have teached me the fundamentals of game design, team collaboration, a bit of 2D and 3D art, and of course, their programming. 
+			I have more than 10 games built from scratch. They have taught me the fundamentals of game design, team collaboration, some 2D and 3D art, and above all, to become a better programmer. 
 			<br><br>
 			Now I work happily at Spearhead studios creating small games and waiting for new opportunities.
 		</div>

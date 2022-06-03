@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { AboutProjectsComponent } from './projects/about-projects/about-projects.component';
+import { TheThreeKingdomsComponent } from './projects/the-three-kingdoms/the-three-kingdoms.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { AboutProjectsComponent } from './projects/about-projects/about-projects
     ProjectsComponent,
     ReviewsComponent,
     AboutProjectsComponent,
+    TheThreeKingdomsComponent,
   ],
   imports: [
     BrowserModule,

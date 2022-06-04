@@ -41,7 +41,7 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [
 	'#skillCards { margin-top: 200px; margin-left: 15%; margin-right: 15%; }',
-	'.skillCard { width: 23%; height: 400px; float: left; margin-bottom: 200px; }',
+	'.skillCard { width: 23%; height: 400px; float: left; margin-bottom: 200px; background-color: #6d8fff; color: white;}',
 	'#midSkillCard { margin-right: 15%; margin-left: 15%; }',
   ]
 })

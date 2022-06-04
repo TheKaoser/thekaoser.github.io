@@ -5,7 +5,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 	template: `
     <div class="cover-div">
 		<img id="splashArt" src="assets/imgs/kaoser.png">
-		<img id="videoShape" src="./assets/imgs/VideoShape.png">
+		<!-- <img id="videoShape" src="./assets/imgs/VideoShape.png"> -->
 		<p id="rodrigo" class="is-size-1 is-bold">Rodrigo Alonso</p>
     </div>
     <div id="about-me">
@@ -30,7 +30,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 		'#videoShape { position:absolute; }',
 		'#about-me { position: relative; margin-top: 100px; }',
 		'.title { color:mediumpurple; }',
-		'.me-text { width: 35%; margin-left: 15%; margin-top: 15px; font-size: 15px; max-width: 700px; }',
+		'.me-text { width: 35%; margin-left: 15%; margin-top: 15px; font-size: 15px; max-width: 700px; color: white; }',
 		'#photo { position: absolute; max-width: 500px; top: -200px; right: 15%; object-fit: cover; }',
 	]
 })

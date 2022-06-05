@@ -13,6 +13,13 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { AboutProjectsComponent } from './projects/about-projects/about-projects.component';
 import { TheThreeKingdomsComponent } from './projects/the-three-kingdoms/the-three-kingdoms.component';
+import { FantasticWarsComponent } from './projects/fantastic-wars/fantastic-wars.component';
+import { SqueenksComponent } from './projects/squeenks/squeenks.component';
+import { PlanetFixerComponent } from './projects/planet-fixer/planet-fixer.component';
+import { BasicRpgComponent } from './projects/basic-rpg/basic-rpg.component';
+import { UflineComponent } from './projects/ufline/ufline.component';
+import { TimeKeeperComponent } from './projects/time-keeper/time-keeper.component';
+import { SuckedSoulsComponent } from './projects/sucked-souls/sucked-souls.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +33,13 @@ import { TheThreeKingdomsComponent } from './projects/the-three-kingdoms/the-thr
     ReviewsComponent,
     AboutProjectsComponent,
     TheThreeKingdomsComponent,
+    FantasticWarsComponent,
+    SqueenksComponent,
+    PlanetFixerComponent,
+    BasicRpgComponent,
+    UflineComponent,
+    TimeKeeperComponent,
+    SuckedSoulsComponent,
   ],
   imports: [
     BrowserModule,

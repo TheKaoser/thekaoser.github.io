@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 		<video id="splashArt" height="100%" width="100%" autoplay muted loop preload #videoRef>
 			<source type="video/mp4" src="assets/videos/Projects.mp4">
 		</video>
-		<!-- <img id="videoShape" src="./assets/imgs/VideoShape.png"> -->
+		<p class="title is-size-1 is-bold">Projects</p>
 	</div>
 	<div id="projects"></div>
   `,

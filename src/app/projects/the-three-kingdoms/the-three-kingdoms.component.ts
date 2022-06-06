@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 	template: `
     <div class="project">
 		<img id="project-image" src="assets/imgs/TTK.png">
-		<p id="title" class="is-size-1 is-bold">The Three Kingdoms</p>
+		<p id="title" class="is-size-1 is-bold">Three Kingdoms</p>
 		<div id="description" class="is-size-5 is-italic">
 			Three kingdoms that fell into misfortune are now habited by an horde of goblins that fight and reproduce at the same rate. 
 			Will you become the goblin god?
@@ -40,12 +40,12 @@ import { Component, OnInit } from '@angular/core';
 	</div>
   `,
 	styles: [
-		'#title { margin: 0; position: absolute; top: 15%; left: 10%; color: white; }',
+		'#title { margin: 0; position: absolute; top: 15%; left: 10%; right: 50%; color: white; }',
 		'#description { margin: 0; position: absolute; top: 40%; left: 10%; right: 55%; color: white; }',
-		'#project-image { margin-left: 50%; margin-top: 100px; width: 55%; }',
-		'#socials {margin: 0; top: 70%; left: 10%; position: absolute; }',
-		'#highlights { margin-left: 5%; }',
-		'.highlight { margin-top: 50px; margin-right: 5px; width: 20%; height: 75px; float: left; margin-bottom: 200px; background-color: #6b2cff; color: white;}',
+		'#project-image { top: 20%; left: 50%; width: 55%; position: absolute }',
+		'#socials {margin: 0; bottom: 15%; left: 10%; position: absolute; }',
+		'#highlights { top: 93%; margin-left: 5%; position: absolute; width: 100%; }',
+		'.highlight { margin-right: 5px; width: 20%; height: 75px; float: left; margin-bottom: 200px; background-color: #6b2cff; color: white; }',
 	]
 })
 export class TheThreeKingdomsComponent implements OnInit {

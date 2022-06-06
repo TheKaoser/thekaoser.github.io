@@ -6,10 +6,10 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
     <div class="cover-div">
 		<img id="splashArt" src="assets/imgs/kaoser.png">
 		<!-- <img id="videoShape" src="./assets/imgs/VideoShape.png"> -->
-		<p id="rodrigo" class="is-size-1 is-bold">Rodrigo Alonso</p>
+		<p class="title is-size-1 is-bold">Rodrigo Alonso</p>
     </div>
     <div id="about-me">
-		<div class="me-text title is-bold is-size-1">
+		<div class="header me-text is-bold is-size-1">
 			DEVELOPER & PLAYER
 		</div>
      	<div class="me-text is-italic has-text-left is-size-6">
@@ -25,11 +25,10 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
     </div>
   `,
 	styles: [
-		'#rodrigo { margin: 0; position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%); color: white; }',
 		'#splashArt { position:absolute; }',
 		'#videoShape { position:absolute; }',
 		'#about-me { position: relative; margin-top: 100px; }',
-		'.title { color:mediumpurple; }',
+		'.header { color:mediumpurple; }',
 		'.me-text { width: 35%; margin-left: 15%; margin-top: 15px; font-size: 15px; max-width: 700px; color: white; }',
 		'#photo { position: absolute; max-width: 500px; top: -200px; right: 15%; object-fit: cover; }',
 	]

@@ -49,7 +49,7 @@ import { Component, OnInit } from '@angular/core';
   `,
 	styles: [
 		'#title { margin: 0; position: absolute; top: 15%; left: 10%; color: white; }',
-		'#description { margin: 0; position: absolute; top: 35%; left: 10%; right: 55%; color: white; }',
+		'#description { margin: 0; position: absolute; top: 30%; left: 10%; right: 55%; color: white; }',
 		'#project-image { margin-left: 50%; margin-top: 100px; width: 55%; }',
 		'#socials {margin: 0; top: 70%; left: 10%; position: absolute; }',
 		'#highlights { margin-left: 5%; }',

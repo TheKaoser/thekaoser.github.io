@@ -3,9 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
 	selector: 'app-reviews',
 	template: `
-    <p>
-      reviews works!
-    </p>
+    <app-about-reviews></app-about-reviews>
+	<app-new-world></app-new-world>
   `,
 	styles: [
 	]

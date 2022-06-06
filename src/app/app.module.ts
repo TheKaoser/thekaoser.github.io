@@ -20,6 +20,8 @@ import { BasicRpgComponent } from './projects/basic-rpg/basic-rpg.component';
 import { UflineComponent } from './projects/ufline/ufline.component';
 import { TimeKeeperComponent } from './projects/time-keeper/time-keeper.component';
 import { SuckedSoulsComponent } from './projects/sucked-souls/sucked-souls.component';
+import { NewWorldComponent } from './reviews/new-world/new-world.component';
+import { AboutReviewsComponent } from './reviews/about-reviews/about-reviews.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { SuckedSoulsComponent } from './projects/sucked-souls/sucked-souls.compo
     UflineComponent,
     TimeKeeperComponent,
     SuckedSoulsComponent,
+    NewWorldComponent,
+    AboutReviewsComponent,
   ],
   imports: [
     BrowserModule,

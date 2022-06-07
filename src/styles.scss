@@ -61,3 +61,51 @@ body {
     background-image: radial-gradient(rgb(102, 79, 202), rgb(194, 188, 255)); 
 }
 
+.project-title { 
+    margin: 0; 
+    position: absolute; 
+    top: 15%; 
+    left: 10%; 
+    right: 50%; 
+    color: white; 
+}
+
+.project-description { 
+    margin: 0; 
+    position: absolute; 
+    top: 40%; 
+    left: 10%; 
+    right: 55%; 
+    color: white; 
+}
+
+.project-image { 
+    top: 20%; 
+    left: 50%; 
+    width: 55%; 
+    position: absolute 
+}
+
+.project-links {
+    margin: 0; 
+    bottom: 15%; 
+    left: 10%; 
+    position: absolute; 
+}
+
+.project-highlights { 
+    top: 93%; 
+    margin-left: 5%; 
+    position: absolute; 
+    width: 100%; 
+}
+
+.project-highlight { 
+    margin-right: 5px; 
+    width: 20%; 
+    height: 75px; 
+    float: left; 
+    margin-bottom: 200px; 
+    background-color: #6b2cff; 
+    color: white; 
+}

@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
 	</footer>
   `,
   styles: [
-    '#footer { position: relative; }',
+    '#footer { position: relative; top: 100%}',
 	  '* { clear:both; }'
   ]
 })

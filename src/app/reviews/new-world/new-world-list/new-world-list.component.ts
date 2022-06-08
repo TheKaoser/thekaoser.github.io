@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 	styles: [
 		'#title { margin: 0; position: absolute; top: 15%; left: 10%; color: white; }',
 		'#description { margin: 0; position: absolute; top: 40%; left: 10%; right: 55%; color: white; }',
-		'#score { margin: 0; position: absolute; top: 80%; left: 40%; right: 55%; color: white; }',
+		'#score { margin: 0; position: absolute; top: 70%; left: 10%; right: 55%; color: white; }',
 		'#review-image { margin-left: 60%; margin-top: 2px; width: 40%; }',
 	]
 })

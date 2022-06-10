@@ -24,24 +24,121 @@
     margin-bottom: 250px;
     position: relative;
     background-color: #6f56ff;
+    border-radius: 10px;
 }
 
 .review-list {
     position: relative;
     margin:auto;
-    margin-bottom: 250px;
+    margin-bottom: 100px;
     width: 70%;
-    height: 300px;
+    height: 293px;
     background-color: #6f56ff;
+    border-radius: 10px;
+}
+
+.review-list-title { 
+    margin: 0; 
+    position: absolute; 
+    top: 15%; 
+    left: 10%; 
+    color: white; 
+}
+
+.review-list-description { 
+    margin: 0; 
+    position: absolute; 
+    top: 50%; 
+    left: 10%; 
+    right: 55%; 
+    color: white; 
+}
+
+.review-list-image { 
+    margin-left: 60%; 
+    width: 40%;
+    border-radius: 10px;
 }
 
 .review-detail {
     position: relative;
-    margin:auto;
     margin-top: 100px;
-    margin-bottom: 250px;
+}
+
+.review-image {
+    border-radius: 10px;
+}
+
+.review-image-left {
+    border-radius: 10px;
+    float: left;
+    margin-left: 15%;
+    margin-right: 20px;
+}
+
+.review-image-center {
+    border-radius: 10px;
+    max-width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.review-first-letter {
+    float: left;
+    margin-left: 25%;
+    font-size: 70px;
+    margin-right: 20px;
+    color: white;
+}
+
+.review-intro {
+    font-size: 20px; 
+    color: white;
+    margin:auto;
     width: 50%;
     text-align: justify;
+}
+
+.review-paragraph {
+    font-size: 18px; 
+    color: white;
+    margin:auto;
+    width: 50%;
+    text-align: justify;
+}
+
+.review-quote-left {
+    float: left;
+    margin-left: 25%;
+    font-size: 30px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    width: 15%;
+    color: white;
+    text-align: right;
+}
+
+.review-quote-right {
+    float: right;
+    margin-right: 25%;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    width: 15%;
+    color: white;
+    text-align: left;
+}
+
+.review-conclusion {
+    border-radius: 10px;
+    color: white;
+    font-size: 20px; 
+    padding: 2%;
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+    background-color: #826dfa;
+    margin-bottom: 250px;
 }
 
 .title {
@@ -51,11 +148,6 @@
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: white; 
-}
-
-.paragraph {
-    font-size: 18px; 
-    color: white;
 }
 
 body { 
@@ -81,10 +173,11 @@ body {
 }
 
 .project-image { 
-    top: 20%; 
+    top: 15%; 
     left: 50%; 
     width: 55%; 
-    position: absolute 
+    position: absolute;
+    border-radius: 10px;
 }
 
 .project-links {

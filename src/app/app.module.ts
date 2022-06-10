@@ -23,6 +23,7 @@ import { NewWorldListComponent } from './reviews/new-world/new-world-list/new-wo
 
 import { AboutReviewsComponent } from './reviews/about-reviews/about-reviews.component';
 import { ReviewListComponent } from './reviews/review-list/review-list.component';
+import { LostArkListComponent } from './reviews/lost-ark/lost-ark-list/lost-ark-list.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { ReviewListComponent } from './reviews/review-list/review-list.component
     TimeKeeperComponent,
     SuckedSoulsComponent,
     NewWorldListComponent,
+    LostArkListComponent,
     AboutReviewsComponent,
     ReviewListComponent,
   ],

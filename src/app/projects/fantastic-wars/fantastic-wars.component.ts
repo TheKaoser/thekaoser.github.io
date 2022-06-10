@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 	selector: 'app-fantastic-wars',
 	template: `
     <div class="project">
-		<img class="project-image" src="assets/imgs/FW.jpg">
+		<img class="project-image" src="assets/imgs/FW.png">
 		<p class="project-title is-size-1 is-bold">Fantastic Wars</p>
 		<div class="project-description is-size-5 is-italic">
 			Put yourself into the shoes of an aspirant to unleash memorable battles for the conquest of the kingdom.

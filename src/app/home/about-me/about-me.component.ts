@@ -4,7 +4,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 	selector: 'app-about-me',
 	template: `
     <div class="cover-div">
-		<img id="splashArt" src="assets/imgs/kaoser.png">
+		<img id="splashArt" src="assets/imgs/SplashArt.png">
 		<!-- <img id="videoShape" src="./assets/imgs/VideoShape.png"> -->
 		<p class="title is-size-1 is-bold">Rodrigo Alonso</p>
     </div>

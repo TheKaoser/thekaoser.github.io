@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
 	template: `
 		<app-about-reviews></app-about-reviews>
 		<app-new-world-list></app-new-world-list>
+		<app-lost-ark-list></app-lost-ark-list>
 	`,
 	styles: [
 	]

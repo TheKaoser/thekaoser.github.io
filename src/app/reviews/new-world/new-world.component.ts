@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-	selector: 'app-new-world-detail',
+	selector: 'app-new-world',
 	template: `
   		<img src="assets/imgs/NW/NWHeader.jpg">
 		<p class="title is-size-1 is-bold">New World</p>
@@ -70,6 +70,7 @@ import { Component, OnInit } from '@angular/core';
 			<div class="review-paragraph is-italic">
 				Y es en  las conquistas, trifulcas, o los meros enfrentamientos contra mobs donde sale a relucir uno de los puntos donde más brilla New World: el combate. Podremos blandir dos armas entre las que alternar con rapidez. Cada una con 3 habilidades escogidas entre las 6 posibles, con diferentes cooldowns que harán que debamos gestionarlas bien. Si queremos dominarlo, deberemos observar, esquivar y atacar en los momentos oportunos, para lo que ayudará conocer al enemigo, humano o corrupto.
 				<br><br>
+				<br>
 			</div>
 		</div>
 		<div class="review-conclusion is-italic">
@@ -79,7 +80,7 @@ import { Component, OnInit } from '@angular/core';
 	styles: [
 	]
 })
-export class NewWorldDetailComponent implements OnInit {
+export class NewWorldComponent implements OnInit {
 
 	constructor() { }
 

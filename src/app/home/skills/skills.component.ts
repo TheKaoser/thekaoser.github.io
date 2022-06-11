@@ -4,52 +4,35 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-skills',
   template: `
     <div id="skillCards">
-		<div class="card skillCard">
+		<div *ngFor="let skill of skills" class="card skillCard">
 			<div class="card-content">
-				<img src="assets/imgs/Skill_1.png">
+				<img src={{skill.image}}>
 				<p class="is-bold is-size-4">
-					Passionate for coding
+					{{skill.name}}
 				</p>
 				<p class="is-italic is-size-6">
-					From high level architecture to low level code details
-				</p>
-			</div>
-		</div>
-		<div id="midSkillCard" class="card skillCard">
-			<div class="card-content">
-				<img src="assets/imgs/Skill_2.png">
-				<p class="is-bold is-size-4">
-					O. O. Designer
-				</p>
-				<p class="is-italic is-size-6">
-					In C++, C#, Typescript, Python...
-				</p>
-			</div>
-		</div>
-		<div class="card skillCard">
-			<div class="card-content">
-				<img src="assets/imgs/Skill_3.png">
-				<p class="is-bold is-size-4">
-					Experienced in
-				</p>
-				<p class="is-italic is-size-6">
-					Networking, Web, Databases, Multi-Threading, Machine Learning...
+					{{skill.description}}
 				</p>
 			</div>
 		</div>
     </div>
   `,
   styles: [
-	'#skillCards { margin-top: 200px; margin-left: 15%; margin-right: 15%; }',
-	'.skillCard { width: 23%; height: 400px; float: left; margin-bottom: 200px; background-color: #6d8fff; color: white;}',
-	'#midSkillCard { margin-right: 15%; margin-left: 15%; }',
+	'#skillCards { margin-top: 200px; margin-left: 2.5%; margin-right: -2.5%; }',
+	'.skillCard { margin-left: 12.5%; margin-bottom: 200px; width: 15%; height: 400px; float: left; background-color: #6f56ff; color: white; }',
   ]
 })
 export class SkillsComponent implements OnInit {
+	skills : { name: string, description: string, image: string }[] = [ 
+		{ name: "Passionate for coding", description : "From high level architecture to low level code details", image: "assets/imgs/Skill_1.png" }, 
+		{ name: "O. O. Designer", description: "In C++, C#, Typescript, Python...", image: "assets/imgs/Skill_2.png" },
+		{ name: "Experienced in", description: "Networking, Web, Databases, Multi-Threading, Machine Learning...", image: "assets/imgs/Skill_3.png" },
+	];
 
-  constructor() { }
+	constructor() { 
+	}
 
-  ngOnInit(): void {
-  }
+	ngOnInit(): void {
+	}
 
 }

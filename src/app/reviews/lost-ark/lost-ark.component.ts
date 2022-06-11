@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-	selector: 'app-lost-ark-detail',
+	selector: 'app-lost-ark',
 	template: `
 		<img src="assets/imgs/LA/LAHeader.png">
 		<p class="title is-size-1 is-bold">Lost Ark</p>
@@ -38,7 +38,7 @@ import { Component, OnInit } from '@angular/core';
 	styles: [
 	]
 })
-export class LostArkDetailComponent implements OnInit {
+export class LostArkComponent implements OnInit {
 
 	constructor() { }
 

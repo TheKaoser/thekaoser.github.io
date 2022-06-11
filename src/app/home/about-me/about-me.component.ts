@@ -3,17 +3,14 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 @Component({
 	selector: 'app-about-me',
 	template: `
-    <div class="cover-div">
-		<img id="splashArt" src="assets/imgs/SplashArt.png">
-		<!-- <img id="videoShape" src="./assets/imgs/VideoShape.png"> -->
-		<p class="title is-size-1 is-bold">Rodrigo Alonso</p>
-    </div>
+	<img src="assets/imgs/SplashArt.png">
+	<p class="title is-size-1 is-bold">Rodrigo Alonso</p>
     <div id="about-me">
-		<div class="header me-text is-bold is-size-1">
+		<div class="me-text is-bold is-size-1">
 			DEVELOPER & PLAYER
 		</div>
      	<div class="me-text is-italic has-text-left is-size-6">
-			From Playmobil, Magic: The Gathering or Warhammer, I have always enjoyed playing games and creating them. It was already before starting Computer Science BA that I knew I wanted to base my career on it. For this, I specialized in it through a Master's degree afterwards.
+			From Playmobil, Magic: The Gathering or Warhammer, I have always enjoyed playing games and creating them. It was already before starting Computer Science BA that I knew I wanted to base my career on creating video games, which let you create other worlds only limited by imagination. For this, I specialized in it through a Master's degree afterwards.
 			<br><br>
 			I have more than 10 games built from scratch. They have taught me the fundamentals of game design, team collaboration, some 2D and 3D art, and above all, to become a better programmer. 
 			<br><br>
@@ -25,24 +22,13 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
     </div>
   `,
 	styles: [
-		'#splashArt { position:absolute; }',
-		'#videoShape { position:absolute; }',
-		'#about-me { position: relative; margin-top: 100px; }',
-		'.header { color:mediumpurple; }',
+		'#about-me { position: relative; margin-top: 100px; text-align: justify; }',
 		'.me-text { width: 35%; margin-left: 15%; margin-top: 15px; font-size: 15px; max-width: 700px; color: white; }',
-		'#photo { position: absolute; max-width: 500px; top: -200px; right: 15%; object-fit: cover; }',
+		'#photo { position: absolute; max-width: 500px; top: -70%; right: 15%; object-fit: cover; }',
 	]
 })
 
 export class AboutMeComponent implements OnInit {
-
-	// ​@ViewChild('videoRef', { static: true }) videoRef!: ElementRef
-
-	// ​ngAfterViewInit(): void {
-	//   ​const media = this.videoRef.nativeElement
-	//   ​media.muted = true
-	//   ​media.play() 
-	// ​ } 
 
 	constructor() { }
 

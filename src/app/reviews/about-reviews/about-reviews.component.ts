@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 	selector: 'app-about-reviews',
 	template: `
 		<img id="splashArt" src="assets/imgs/Reviews.png">
-		<p class="title is-size-1 is-bold">Reviews</p>
+		<p class="title">Reviews</p>
 		<div id="empty"></div>
   `,
 	styles: [

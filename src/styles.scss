@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+@import '../node_modules/bulma/css/bulma.css';
 
 .is-italic {
     font-family: 'Lato', sans-serif;
@@ -11,37 +12,8 @@
     font-style: italic;
 }
 
-.review-list {
-    position: relative;
-    margin:auto;
-    margin-bottom: 100px;
-    width: 70%;
-    height: 293px;
-    background-color: #6f56ff;
-    border-radius: 10px;
-}
-
-.review-list-title { 
-    margin: 0; 
-    position: absolute; 
-    top: 15%; 
-    left: 10%; 
-    color: white; 
-}
-
-.review-list-description { 
-    margin: 0; 
-    position: absolute; 
-    top: 50%; 
-    left: 10%; 
-    right: 55%; 
-    color: white; 
-}
-
-.review-list-image { 
-    margin-left: 60%; 
-    width: 40%;
-    border-radius: 10px;
+body { 
+    background-image: radial-gradient(rgb(102, 79, 202), rgb(194, 188, 255)); 
 }
 
 .review-detail {
@@ -73,6 +45,7 @@
     font-size: 70px;
     margin-right: 20px;
     color: white;
+    @extend .is-bold;
 }
 
 .review-intro {
@@ -81,6 +54,7 @@
     margin:auto;
     width: 50%;
     text-align: justify;
+    @extend  .is-italic;
 }
 
 .review-paragraph {
@@ -89,6 +63,7 @@
     margin:auto;
     width: 50%;
     text-align: justify;
+    @extend .is-italic;
 }
 
 .review-quote-left {
@@ -100,6 +75,7 @@
     width: 15%;
     color: white;
     text-align: right;
+    @extend .is-bold;
 }
 
 .review-quote-right {
@@ -111,6 +87,7 @@
     width: 15%;
     color: white;
     text-align: left;
+    @extend .is-bold;
 }
 
 .review-conclusion {
@@ -123,6 +100,7 @@
     text-align: justify;
     background-color: #826dfa;
     margin-bottom: 250px;
+    @extend .is-italic;
 }
 
 .title {
@@ -132,8 +110,6 @@
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: white; 
-}
-
-body { 
-    background-image: radial-gradient(rgb(102, 79, 202), rgb(194, 188, 255)); 
+    font-size: 3rem;
+    @extend .is-bold;
 }

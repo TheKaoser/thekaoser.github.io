@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ReviewsComponent } from './review-list.component';
+import { ReviewsComponent } from './reviews.component';
 import { NewWorldComponent } from './new-world/new-world.component';
 import { LostArkComponent } from './lost-ark/lost-ark.component';
 

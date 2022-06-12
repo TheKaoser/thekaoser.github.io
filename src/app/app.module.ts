@@ -15,7 +15,7 @@ import { ProjectListComponent } from './projects/project-list/project-list.compo
 import { ReviewListComponent } from './reviews/review-list/review-list.component';
 
 import { AboutReviewsComponent } from './reviews/about-reviews/about-reviews.component';
-import { ReviewsComponent } from './reviews/review-list.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 import { AboutWebsiteComponent } from './home/about-website/about-website.component';
 
 @NgModule({

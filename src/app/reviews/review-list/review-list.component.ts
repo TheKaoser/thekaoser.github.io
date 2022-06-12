@@ -5,17 +5,21 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div *ngFor="let review of reviews">
 		<a routerLink={{review.link}}> 
-			<div class="review-list">
-				<p class="review-list-title is-size-1 is-bold">{{review.name}}</p>
-				<div class="review-list-description is-size-6 is-italic">
+			<div id="review-list">
+				<p id="review-list-title" class="is-size-1 is-bold">{{review.name}}</p>
+				<div id="review-list-description" class="is-size-6 is-italic">
 					{{review.description}}
 				</div>
-				<img class="review-list-image" src={{review.image}}>
+				<img id="review-list-image" src={{review.image}}>
 			</div>
 		</a>
 	</div>
   `,
 	styles: [
+		'#review-list { position: relative; margin:auto; margin-bottom: 100px; width: 70%; height: 293px; background-color: #6f56ff; border-radius: 10px; }',
+		'#review-list-title { margin: 0; position: absolute; top: 15%; left: 10%; color: white; }',
+		'#review-list-description { margin: 0; position: absolute; top: 50%; left: 10%; right: 55%; color: white; }',
+		'#review-list-image { margin-left: 60%; width: 40%; border-radius: 10px; }',
 	]
 })
 export class ReviewListComponent implements OnInit {

@@ -4,14 +4,16 @@ import { Component, OnInit } from '@angular/core';
 	selector: 'app-lost-ark',
 	template: `
 		<img src="assets/imgs/LA/LAHeader.png">
-		<p class="title is-size-1 is-bold">Lost Ark</p>
+		<p class="title">Lost Ark</p>
 		<div class="review-detail">
-			<div class="review-first-letter is-bold">
+			<div class="review-first-letter">
 				L
 			</div>
-			<div class="review-intro is-italic">	
+			<div class="review-intro">	
 				a estrategia de Lost Ark para satisfacer las horas que ansían sus jugadores — medidas por cientas — es sin duda la de abarcar. Abarca muchos géneros e ideas, lugares y mecánicas. Y, al contrario de lo esperado, lo hace apretando a costa de aprovechar conceptos que funcionan de otros juegos y trasladándolos de forma magistral. El resultado: uno de los MMOs más complejos y pulidos del momento.
 				<br><br>
+			</div>
+			<div class="review-paragraph">
 				A pesar de su extensión, la experiencia no se hace abrumadora. En parte gracias a la simplicidad de la interfaz, a sus preciosos gráficos, y a la demostración paulatina y amigable de las mecánicas. En nuestra progresión se intercala historia, exploración y actividades de matchmaking para aliviar el aprendizaje y crear un ritmo variado. 
 				<br><br>
 				Por otra parte, es gracias a ser una experiencia online. Continuamente, estaremos rodeados de jugadores con los que interactuar. Además, el juego incita a ello con pequeños detalles: Al talar, otro jugador puede cooperar apareciendo así una sierra entre ambos jugadores; o al cruzar un puente junto a un compañero ambos realizan la misma animación para superar el obstáculo. 
@@ -31,7 +33,7 @@ import { Component, OnInit } from '@angular/core';
 				Finalmente, en todo MMO que se precie disponemos de algún sistema de housing. Bien, pues siguiendo la filosofía, aquí tendremos toda una isla para editar. Desde aquí también se crean muebles, objetos de combate o se mandan expediciones para completar alguna misión diaria para ayudarnos.
 				<br><br>
 			</div>
-			<div class="review-conclusion is-italic">
+			<div class="review-conclusion">
 				Como conclusión, Lost Ark es un juego enorme que ofrece contenido variado y de calidad, sin ser abrumador. Hace muy bien muchas cosas e innova a veces con grandes ideas y a su manera. Su fama está más que justificada.
 			</div>
   `,

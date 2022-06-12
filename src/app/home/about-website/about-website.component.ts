@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 		<div class="about-website">
 			<p class="text-left is-size-1 is-bold" style="top: 17%">EXPLORE MY PROJECTS</p>
 			<div class="text-left is-size-6 is-italic" style="top: 65%">
-				Whatever your taste of video games is, you will find something for you.
+				Whatever your taste in video games is, you will find something for you.
 			</div>
 			<img class="image-left" src="assets/imgs/SuckedSouls.png">
 		</div>

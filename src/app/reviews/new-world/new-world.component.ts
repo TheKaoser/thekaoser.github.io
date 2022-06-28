@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 			<div class="review-intro">	
 				Farmear enemigos intentando que suelten un objeto con un 0.1% de probabilidad, hacer misiones insignificantes sin leer un solo diálogo o examinar un inventario con miles de objetos de utilidad dudosa son algunas de las acciones que todo jugador de MMORPG reconocerá al instante. 
 				<br><br>
-				Y es que el contenido de estos juegos está diseñado para jugarse durante cientas de horas, si no miles, debe funcionar tanto en solitario como en grupo, entre novatos y veteranos, progresivos a través de las tareas que elija el jugador entre una variedad de opciones y un abanico de lugares…
+				Y es que el contenido de estos juegos está diseñado para jugarse durante cientas de horas, si no miles, debe funcionar tanto en solitario como en grupo, entre novatos y veteranos y todo en un abanico de de tareas y lugares para que el jugador decida…
 				<br><br>
 				En definitiva, su diseño es muy complejo, y requiere de un equilibrio acertado entre complejidad y profundidad. Es por esto que frecuentemente encontramos sistemas fallidos, de complejidad excesiva o con curvas de aprendizaje tediosas... Pero eso sí, cualquier MMORPG capaz de superar estos obstáculos nos atrapará entre sus garras sumergiéndonos profundamente, como ningún otro género puede lograr.
 				<br><br>
@@ -27,7 +27,6 @@ import { Component, OnInit } from '@angular/core';
 				Conformado únicamente por humanos, sin sistema de colas para actividades y con chat de voz por proximidad, New World estimula a sus jugadores a la interacción, ya que el destino de cada servidor se decide a raíz de la acción conjunta de los más de mil jugadores que hay vinculados a este. También nos otorga la opción de activar el modo PVP, para que podamos matar o morir en el intento de matar a todo el que se ponga en el camino de nuestro propósito.
 				<br><br>
 			</div>
-			<img class="review-image-left" src="assets/imgs/NW/Chop.png">
 			<div class="review-paragraph">
 				Al contrario de lo que es frecuente, al iniciar el juego no fijamos una clase. Más bien y al igual que funciona en el mundo real iremos aprendiendo las artes de lo que practiquemos ya sea, por ejemplo, utilizar un arco, pescar o curtir cuero. En cualquier momento podemos decidir empezar a subir un arma diferente o modificar las habilidades de la misma. 
 				<br><br>
@@ -54,6 +53,8 @@ import { Component, OnInit } from '@angular/core';
 			</div>
 			<div class="review-paragraph">
 				Los territorios, aparte de ser estéticamente interesantes, diferenciables y contener distintas culturas, son funcionalmente complementarios. Un territorio bueno para crear buenas armaduras, será malo para cocinar, para recolectar carbón o para subir experiencia. Ello hace que sea necesario viajar entre todos ellos constantemente. Además, nuestro personaje sube de nivel en cada territorio a medida realizamos funciones en ellos, como si los fuéramos conociendo. Con los niveles podemos especializar el territorio haciendo el coste de vivienda inferior, que otorgue más materiales, que no fallen tanto las mejoras… Sin embargo, cuanto más conocemos un territorio, más lento sube su nivel, por lo que es de gran utilidad conocer todos los territorios y especializar cada uno en algo distinto.
+			</div>
+			<div class="review-paragraph">
 				<br><br>
 				En New World deberemos viajar y viajar, ya sea para conseguir ese material de tier 1 que siguen pidiendo las recetas, ir a la batalla por la fortaleza de Ocaso, o fabricar un nuevo hacha en Primera Luz para talar más árboles. La forma más rápida de viajar entre territorios es a través del Azoth. que actúa como un teleport. Sin embargo, este es limitado y tendremos que gestionarlo, de manera que muchas veces deberemos caminar distancias medianas. Esto provoca frecuentes encuentros con facciones antagónicas, a menudo acabados en trifulcas. 
 				<br><br>

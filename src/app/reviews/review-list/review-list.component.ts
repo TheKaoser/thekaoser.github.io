@@ -36,6 +36,30 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/LA/LAHeader.png",
 			link: "lost-ark",
 		},
+		{ 
+			name: "Remnant: From the Ashes", 
+			description : "Si crees que al ser cooperativo no sufrirás, te equivocas; Sufrirás en compañía.", 
+			image: "assets/imgs/Remnant/Header.jpg",
+			link: "remnant",
+		},
+		{ 
+			name: "Dishonored", 
+			description : "Aunque ideado para ser una experiencia sigilosa, Dishonored es todo un sandbox de matar.", 
+			image: "assets/imgs/Dishonored/Header.jpg",
+			link: "dishonored",
+		},
+		{ 
+			name: "Loop Hero", 
+			description : "En Loop Hero combatimos enemigos con la curva de dificultad que decidamos, eventualmente retirándonos o muriendo.", 
+			image: "assets/imgs/LH/Header.jpg",
+			link: "loop-hero",
+		},
+		{ 
+			name: "Fallout: New Vegas", 
+			description : "¿Eres un lobo solitario o un tipo social? ¿Tienes vocación medicinal, o te decantas por la ciencia? En cualquier caso tus habilidades vendrán bien en Fallout: New Vegas.", 
+			image: "assets/imgs/FNV/Header.jpg",
+			link: "fallout-nv",
+		},
 	]
 
 	constructor() { }

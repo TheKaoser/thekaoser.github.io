@@ -7,6 +7,7 @@ import { RemnantComponent } from './remnant/remnant.component';
 import { DishonoredComponent } from './dishonored/dishonored.component';
 import { LoopHeroComponent } from './loop-hero/loop-hero.component';
 import { FalloutNvComponent } from './fallout-nv/fallout-nv.component';
+import { HadesComponent } from './hades/hades.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'fallout-nv',
     component: FalloutNvComponent
+  },
+  {
+    path: 'hades',
+    component: HadesComponent
   },
 ];
 

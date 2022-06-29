@@ -8,6 +8,7 @@ import { RemnantComponent } from './remnant/remnant.component';
 import { DishonoredComponent } from './dishonored/dishonored.component';
 import { LoopHeroComponent } from './loop-hero/loop-hero.component';
 import { FalloutNvComponent } from './fallout-nv/fallout-nv.component';
+import { HadesComponent } from './hades/hades.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { FalloutNvComponent } from './fallout-nv/fallout-nv.component';
     RemnantComponent,
     DishonoredComponent,
     LoopHeroComponent,
-    FalloutNvComponent
+    FalloutNvComponent,
+    HadesComponent
   ],
   imports: [
     CommonModule,

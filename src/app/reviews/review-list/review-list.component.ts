@@ -60,6 +60,12 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/FNV/Header.jpg",
 			link: "fallout-nv",
 		},
+		{ 
+			name: "Hades", 
+			description : "Hades juega con el humor para representar mitos griegos, a la par que provoca el disfrute a los más entendidos con sus numerosas referencias.", 
+			image: "assets/imgs/Hades/Header.png",
+			link: "hades",
+		},
 	]
 
 	constructor() { }

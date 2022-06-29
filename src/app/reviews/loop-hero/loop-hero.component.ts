@@ -24,7 +24,7 @@ import { Component, OnInit } from '@angular/core';
 			<br><br>
 		</div>
 		<div class="review-conclusion">
-			Loop Hero demuestra que es posible alternar ligeramente una fórmula popular para crear algo distinto y escalofriantemente atractivo.
+			Loop Hero demuestra que es posible alternar ligeramente una fórmula popular para crear algo distinto y escalofriantemente adictivo.
 		</div>
 	</div>
   `,

@@ -66,6 +66,12 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/Hades/Header.png",
 			link: "hades",
 		},
+		{ 
+			name: "Resident Evil 2", 
+			description : "Resident Evil 2 condensa en un espacio limitado, interconectado y diseñado a conciencia, puzles que deberemos resolver bajo la tensión de enemigos, la escasez de munición y la memorización de objetos y rutas.", 
+			image: "assets/imgs/RE2/Header.jpg",
+			link: "resident-evil-2",
+		},
 	]
 
 	constructor() { }

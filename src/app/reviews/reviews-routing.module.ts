@@ -9,6 +9,8 @@ import { LoopHeroComponent } from './loop-hero/loop-hero.component';
 import { FalloutNvComponent } from './fallout-nv/fallout-nv.component';
 import { HadesComponent } from './hades/hades.component';
 import { ResidentEvil2Component } from './resident-evil-2/resident-evil-2.component';
+import { ShadowsOfMordorComponent } from './shadows-of-mordor/shadows-of-mordor.component';
+import { Divinity2Component } from './divinity2/divinity2.component';
 
 const routes: Routes = [
   {
@@ -46,6 +48,14 @@ const routes: Routes = [
   {
     path: 'resident-evil-2',
     component: ResidentEvil2Component
+  },
+  {
+    path: 'shadows-of-mordor',
+    component: ShadowsOfMordorComponent
+  },
+  {
+    path: 'divinity2',
+    component: Divinity2Component
   },
 ];
 

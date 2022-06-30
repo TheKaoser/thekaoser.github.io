@@ -72,6 +72,18 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/RE2/Header.jpg",
 			link: "resident-evil-2",
 		},
+		{ 
+			name: "Shadows of Mordor", 
+			description : "Es inusual que los enemigos de un juego se vean afectados a largo plazo por las acciones del jugador, haciendo de cada partida un reto diferente; Shadows of Mordor nos demuestra con sus Uruk Hai que es posible.", 
+			image: "assets/imgs/SOM/Header.jpg",
+			link: "shadows-of-mordor",
+		},
+		{ 
+			name: "Divinity: Original Sin 2", 
+			description : "Pocos juegos permiten disfrutar tanto como este de la creatividad de los desarrolladores y de la propia.", 
+			image: "assets/imgs/Divinity2/Header.jpg",
+			link: "divinity2",
+		},
 	]
 
 	constructor() { }

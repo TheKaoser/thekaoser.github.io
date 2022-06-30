@@ -10,6 +10,8 @@ import { LoopHeroComponent } from './loop-hero/loop-hero.component';
 import { FalloutNvComponent } from './fallout-nv/fallout-nv.component';
 import { HadesComponent } from './hades/hades.component';
 import { ResidentEvil2Component } from './resident-evil-2/resident-evil-2.component';
+import { ShadowsOfMordorComponent } from './shadows-of-mordor/shadows-of-mordor.component';
+import { Divinity2Component } from './divinity2/divinity2.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { ResidentEvil2Component } from './resident-evil-2/resident-evil-2.compon
     LoopHeroComponent,
     FalloutNvComponent,
     HadesComponent,
-    ResidentEvil2Component
+    ResidentEvil2Component,
+    ShadowsOfMordorComponent,
+    Divinity2Component
   ],
   imports: [
     CommonModule,

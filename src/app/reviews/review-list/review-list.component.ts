@@ -84,6 +84,18 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/Divinity2/Header.jpg",
 			link: "divinity2",
 		},
+		{ 
+			name: "Tomb Raider", 
+			description : "Constantes momentos de supervivencia a situaciones extremas e irrealistas y una protagonista resistente a cualquier tipo y cantidad de heridas.", 
+			image: "assets/imgs/TR/Header.jpg",
+			link: "tomb-raider",
+		},
+		{ 
+			name: "Half Life: Alyx", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/HLA/Header.jpg",
+			link: "half-life-alyx",
+		},
 	]
 
 	constructor() { }

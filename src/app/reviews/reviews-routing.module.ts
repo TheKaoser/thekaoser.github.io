@@ -11,6 +11,8 @@ import { HadesComponent } from './hades/hades.component';
 import { ResidentEvil2Component } from './resident-evil-2/resident-evil-2.component';
 import { ShadowsOfMordorComponent } from './shadows-of-mordor/shadows-of-mordor.component';
 import { Divinity2Component } from './divinity2/divinity2.component';
+import { TombRaiderComponent } from './tomb-raider/tomb-raider.component';
+import { HalfLifeAlyxComponent } from './half-life-alyx/half-life-alyx.component';
 
 const routes: Routes = [
   {
@@ -56,6 +58,14 @@ const routes: Routes = [
   {
     path: 'divinity2',
     component: Divinity2Component
+  },
+  {
+    path: 'tomb-raider',
+    component: TombRaiderComponent
+  },
+  {
+    path: 'half-life-alyx',
+    component: HalfLifeAlyxComponent
   },
 ];
 

@@ -39,6 +39,7 @@ import { Component, OnInit } from '@angular/core';
 			Los escenarios son de lo más variados, desde islas con árboles formados por arterias y rodeados por una niebla letal, a misteriosas minas con bloques flotantes, sin olvidar muelles colapsados en los que habita un kraken o una catedral con un “camino de sangre” por la que los peregrinos expían sus pecados. En estos escenarios encontraremos personajes llenos de carácter e inquietudes en las que podrás intervenir. Siempre pudiendo elegir el bando o jugar en ambos al mismo tiempo.
 			<br><br>
 			Los personajes van equipándose a través de la recogida del botín de los enemigos, el comercio, el robo o la fabricación. Pueden tener armas de toda clase: desde palos a bastones mágicos con la capacidad de congelar al enemigo; armaduras de multitud de piezas, cada una con sus protecciones mágicas y físicas para evitar que el personaje reciba estados como la perforación de sus talones, la seducción o la conversión en pollo. 
+			<br><br>
 		</div>
 		<img class="review-image-center" src="assets/imgs/Divinity2/Classes.jpg">
 		<div class="review-paragraph">

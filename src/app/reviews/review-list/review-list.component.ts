@@ -16,7 +16,7 @@ import { Component, OnInit } from '@angular/core';
 	</div>
   `,
 	styles: [
-		'#review-list { position: relative; margin:auto; margin-bottom: 100px; width: 70%; height: 293px; background-color: #6f56ff; border-radius: 10px; }',
+		'#review-list { position: relative; margin:auto; margin-bottom: 100px; width: 70%; height: 300px; background-color: #6f56ff; border-radius: 10px; }',
 		'#review-list-title { margin: 0; position: absolute; top: 15%; left: 10%; color: white; }',
 		'#review-list-description { margin: 0; position: absolute; top: 50%; left: 10%; right: 55%; color: white; }',
 		'#review-list-image { margin-left: 60%; width: 40%; border-radius: 10px; }',
@@ -95,6 +95,54 @@ export class ReviewListComponent implements OnInit {
 			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
 			image: "assets/imgs/HLA/Header.jpg",
 			link: "half-life-alyx",
+		},
+		{ 
+			name: "Red Dead Redemption", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/RDR/Header.jpg",
+			link: "red-dead-redemption",
+		},
+		{ 
+			name: "Nier Replicant", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/NR/Header.png",
+			link: "nier-replicant",
+		},
+		{ 
+			name: "GRIS", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/GRIS/Header.jpg",
+			link: "gris",
+		},
+		{ 
+			name: "Assassin's Creed 2", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/AC2/Header.jpg",
+			link: "assassins-creed2",
+		},
+		{ 
+			name: "Horizon Zero Dawn", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/HZD/Header.jpg",
+			link: "horizon-zero-dawn",
+		},
+		{ 
+			name: "Darksider Genesis", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/DSG/Header.jpg",
+			link: "darksiders-genesis",
+		},
+		{ 
+			name: "Metal Gear Solid 3", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/MGS3/Header.jpg",
+			link: "metal-gear-solid3",
+		},
+		{ 
+			name: "Starcraft 2", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/SC2/Header.jpg",
+			link: "starcraft2",
 		},
 	]
 

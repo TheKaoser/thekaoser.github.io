@@ -13,6 +13,14 @@ import { ShadowsOfMordorComponent } from './shadows-of-mordor/shadows-of-mordor.
 import { Divinity2Component } from './divinity2/divinity2.component';
 import { TombRaiderComponent } from './tomb-raider/tomb-raider.component';
 import { HalfLifeAlyxComponent } from './half-life-alyx/half-life-alyx.component';
+import { RedDeadRedemptionComponent } from './red-dead-redemption/red-dead-redemption.component';
+import { NierReplicantComponent } from './nier-replicant/nier-replicant.component';
+import { GrisComponent } from './gris/gris.component';
+import { AssassinsCreed2Component } from './assassins-creed2/assassins-creed2.component';
+import { HorizonZeroDawnComponent } from './horizon-zero-dawn/horizon-zero-dawn.component';
+import { DarksidersGenesisComponent } from './darksiders-genesis/darksiders-genesis.component';
+import { MetalGearSolid3Component } from './metal-gear-solid3/metal-gear-solid3.component';
+import { Starcraft2Component } from './starcraft2/starcraft2.component';
 
 const routes: Routes = [
   {
@@ -66,6 +74,38 @@ const routes: Routes = [
   {
     path: 'half-life-alyx',
     component: HalfLifeAlyxComponent
+  },
+  {
+    path: 'red-dead-redemption',
+    component: RedDeadRedemptionComponent
+  },
+  {
+    path: 'nier-replicant',
+    component: NierReplicantComponent
+  },
+  {
+    path: 'gris',
+    component: GrisComponent
+  },
+  {
+    path: 'assassins-creed2',
+    component: AssassinsCreed2Component
+  },
+  {
+    path: 'horizon-zero-dawn',
+    component: HorizonZeroDawnComponent
+  },
+  {
+    path: 'darksiders-genesis',
+    component: DarksidersGenesisComponent
+  },
+  {
+    path: 'metal-gear-solid3',
+    component: MetalGearSolid3Component
+  },
+  {
+    path: 'starcraft2',
+    component: Starcraft2Component
   },
 ];
 

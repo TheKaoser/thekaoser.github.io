@@ -17,6 +17,7 @@ import { ReviewListComponent } from './reviews/review-list/review-list.component
 import { AboutReviewsComponent } from './reviews/about-reviews/about-reviews.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { AboutWebsiteComponent } from './home/about-website/about-website.component';
+import { DarkestDungeonComponent } from './reviews/darkest-dungeon/darkest-dungeon.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { AboutWebsiteComponent } from './home/about-website/about-website.compon
     AboutReviewsComponent,
     ReviewsComponent,
     AboutWebsiteComponent,
+    DarkestDungeonComponent,
   ],
   imports: [
     BrowserModule,

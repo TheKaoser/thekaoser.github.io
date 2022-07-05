@@ -21,6 +21,10 @@ import { HorizonZeroDawnComponent } from './horizon-zero-dawn/horizon-zero-dawn.
 import { DarksidersGenesisComponent } from './darksiders-genesis/darksiders-genesis.component';
 import { MetalGearSolid3Component } from './metal-gear-solid3/metal-gear-solid3.component';
 import { Starcraft2Component } from './starcraft2/starcraft2.component';
+import { PokemonZafiroComponent } from './pokemon-zafiro/pokemon-zafiro.component';
+import { DoomComponent } from './doom/doom.component';
+import { DarkestDungeonComponent } from './darkest-dungeon/darkest-dungeon.component';
+import { Cyberpunk2077Component } from './cyberpunk2077/cyberpunk2077.component';
 
 const routes: Routes = [
   {
@@ -106,6 +110,22 @@ const routes: Routes = [
   {
     path: 'starcraft2',
     component: Starcraft2Component
+  },
+  {
+    path: 'pokemon-zafiro',
+    component: PokemonZafiroComponent
+  },
+  {
+    path: 'doom',
+    component: DoomComponent
+  },
+  {
+    path: 'darkest-dungeon',
+    component: DarkestDungeonComponent
+  },
+  {
+    path: 'cyberpunk2077',
+    component: Cyberpunk2077Component
   },
 ];
 

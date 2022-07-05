@@ -144,6 +144,30 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/SC2/Header.jpg",
 			link: "starcraft2",
 		},
+		{ 
+			name: "Pokémon: Zafiro", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/PZ/Header.jpg",
+			link: "pokemon-zafiro",
+		},
+		{ 
+			name: "Doom", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/Doom/Header.jpg",
+			link: "doom",
+		},
+		{ 
+			name: "Darkest Dungeon", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/DD/Header.jpg",
+			link: "darkest-dungeon",
+		},
+		{ 
+			name: "Cyberpunk 2077", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/CP2077/Header.png",
+			link: "cyberpunk2077",
+		},
 	]
 
 	constructor() { }

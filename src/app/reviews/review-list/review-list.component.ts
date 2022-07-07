@@ -168,6 +168,12 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/CP2077/Header.png",
 			link: "cyberpunk2077",
 		},
+		{ 
+			name: "Cuphead", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/Cuphead/Header.jpg",
+			link: "cuphead",
+		},
 	]
 
 	constructor() { }

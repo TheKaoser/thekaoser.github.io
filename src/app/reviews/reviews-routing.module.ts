@@ -25,6 +25,7 @@ import { PokemonZafiroComponent } from './pokemon-zafiro/pokemon-zafiro.componen
 import { DoomComponent } from './doom/doom.component';
 import { DarkestDungeonComponent } from './darkest-dungeon/darkest-dungeon.component';
 import { Cyberpunk2077Component } from './cyberpunk2077/cyberpunk2077.component';
+import { CupheadComponent } from './cuphead/cuphead.component';
 
 const routes: Routes = [
   {
@@ -126,6 +127,10 @@ const routes: Routes = [
   {
     path: 'cyberpunk2077',
     component: Cyberpunk2077Component
+  },
+  {
+    path: 'cuphead',
+    component: CupheadComponent
   },
 ];
 

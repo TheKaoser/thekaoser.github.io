@@ -26,6 +26,7 @@ import { DoomComponent } from './doom/doom.component';
 import { DarkestDungeonComponent } from './darkest-dungeon/darkest-dungeon.component';
 import { Cyberpunk2077Component } from './cyberpunk2077/cyberpunk2077.component';
 import { CupheadComponent } from './cuphead/cuphead.component';
+import { DarkSouls2Component } from './dark-souls2/dark-souls2.component';
 
 const routes: Routes = [
   {
@@ -131,6 +132,10 @@ const routes: Routes = [
   {
     path: 'cuphead',
     component: CupheadComponent
+  },
+  {
+    path: 'dark-souls2',
+    component: DarkSouls2Component
   },
 ];
 

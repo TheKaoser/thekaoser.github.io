@@ -26,6 +26,7 @@ import { PokemonZafiroComponent } from './pokemon-zafiro/pokemon-zafiro.componen
 import { DoomComponent } from './doom/doom.component';
 import { Cyberpunk2077Component } from './cyberpunk2077/cyberpunk2077.component';
 import { CupheadComponent } from './cuphead/cuphead.component';
+import { DarkSouls2Component } from './dark-souls2/dark-souls2.component';
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { CupheadComponent } from './cuphead/cuphead.component';
     PokemonZafiroComponent,
     DoomComponent,
     Cyberpunk2077Component,
-    CupheadComponent
+    CupheadComponent,
+    DarkSouls2Component
   ],
   imports: [
     CommonModule,

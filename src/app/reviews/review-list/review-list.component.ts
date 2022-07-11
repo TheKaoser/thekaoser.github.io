@@ -174,6 +174,12 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/Cuphead/Header.jpg",
 			link: "cuphead",
 		},
+		{ 
+			name: "Dark Souls 2", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/DS2/Header.jpg",
+			link: "dark-souls2",
+		},
 	]
 
 	constructor() { }

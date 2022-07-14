@@ -27,6 +27,7 @@ import { DoomComponent } from './doom/doom.component';
 import { Cyberpunk2077Component } from './cyberpunk2077/cyberpunk2077.component';
 import { CupheadComponent } from './cuphead/cuphead.component';
 import { DarkSouls2Component } from './dark-souls2/dark-souls2.component';
+import { BdoComponent } from './bdo/bdo.component';
 
 
 @NgModule({
@@ -55,7 +56,8 @@ import { DarkSouls2Component } from './dark-souls2/dark-souls2.component';
     DoomComponent,
     Cyberpunk2077Component,
     CupheadComponent,
-    DarkSouls2Component
+    DarkSouls2Component,
+    BdoComponent
   ],
   imports: [
     CommonModule,

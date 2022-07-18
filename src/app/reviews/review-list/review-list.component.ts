@@ -186,6 +186,18 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/BDO/Header.jpg",
 			link: "black-desert-online",
 		},
+		{ 
+			name: "Batman", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/Batman/Header.jpg",
+			link: "batman",
+		},
+		{ 
+			name: "Bioshock", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/Bioshock/Header.jpg",
+			link: "bioshock",
+		},
 	]
 
 	constructor() { }

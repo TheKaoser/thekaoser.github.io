@@ -28,6 +28,8 @@ import { Cyberpunk2077Component } from './cyberpunk2077/cyberpunk2077.component'
 import { CupheadComponent } from './cuphead/cuphead.component';
 import { DarkSouls2Component } from './dark-souls2/dark-souls2.component';
 import { BdoComponent } from './bdo/bdo.component';
+import { BatmanComponent } from './batman/batman.component';
+import { BioshockComponent } from './bioshock/bioshock.component';
 
 const routes: Routes = [
   {
@@ -141,6 +143,14 @@ const routes: Routes = [
   {
     path: 'black-desert-online',
     component: BdoComponent
+  },
+  {
+    path: 'batman',
+    component: BatmanComponent
+  },
+  {
+    path: 'bioshock',
+    component: BioshockComponent
   },
 ];
 

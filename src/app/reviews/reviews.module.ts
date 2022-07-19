@@ -30,6 +30,8 @@ import { DarkSouls2Component } from './dark-souls2/dark-souls2.component';
 import { BdoComponent } from './bdo/bdo.component';
 import { BatmanComponent } from './batman/batman.component';
 import { BioshockComponent } from './bioshock/bioshock.component';
+import { OriComponent } from './ori/ori.component';
+import { DestinyComponent } from './destiny/destiny.component';
 
 
 @NgModule({
@@ -61,7 +63,9 @@ import { BioshockComponent } from './bioshock/bioshock.component';
     DarkSouls2Component,
     BdoComponent,
     BatmanComponent,
-    BioshockComponent
+    BioshockComponent,
+    OriComponent,
+    DestinyComponent
   ],
   imports: [
     CommonModule,

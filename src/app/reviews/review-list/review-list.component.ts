@@ -198,6 +198,18 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/Bioshock/Header.jpg",
 			link: "bioshock",
 		},
+		{ 
+			name: "Ori and the Blind Forest", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/Ori/Header.jpg",
+			link: "ori",
+		},
+		{ 
+			name: "Destiny 2", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/Destiny/Header.jpg",
+			link: "destiny",
+		},
 	]
 
 	constructor() { }

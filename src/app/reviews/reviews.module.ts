@@ -32,6 +32,7 @@ import { BatmanComponent } from './batman/batman.component';
 import { BioshockComponent } from './bioshock/bioshock.component';
 import { OriComponent } from './ori/ori.component';
 import { DestinyComponent } from './destiny/destiny.component';
+import { WarzoneComponent } from './warzone/warzone.component';
 
 
 @NgModule({
@@ -65,7 +66,8 @@ import { DestinyComponent } from './destiny/destiny.component';
     BatmanComponent,
     BioshockComponent,
     OriComponent,
-    DestinyComponent
+    DestinyComponent,
+    WarzoneComponent
   ],
   imports: [
     CommonModule,

@@ -210,6 +210,12 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/Destiny/Header.jpg",
 			link: "destiny",
 		},
+		{ 
+			name: "Warzone", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/Warzone/Header.jpg",
+			link: "warzone",
+		},
 	]
 
 	constructor() { }

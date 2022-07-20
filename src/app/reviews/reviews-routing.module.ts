@@ -32,6 +32,7 @@ import { BatmanComponent } from './batman/batman.component';
 import { BioshockComponent } from './bioshock/bioshock.component';
 import { OriComponent } from './ori/ori.component';
 import { DestinyComponent } from './destiny/destiny.component';
+import { WarzoneComponent } from './warzone/warzone.component';
 
 const routes: Routes = [
   {
@@ -161,6 +162,10 @@ const routes: Routes = [
   {
     path: 'destiny',
     component: DestinyComponent
+  },
+  {
+    path: 'warzone',
+    component: WarzoneComponent
   },
 ];
 

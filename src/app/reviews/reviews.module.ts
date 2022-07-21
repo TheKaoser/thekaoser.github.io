@@ -33,6 +33,7 @@ import { BioshockComponent } from './bioshock/bioshock.component';
 import { OriComponent } from './ori/ori.component';
 import { DestinyComponent } from './destiny/destiny.component';
 import { WarzoneComponent } from './warzone/warzone.component';
+import { GenshinComponent } from './genshin/genshin.component';
 
 
 @NgModule({
@@ -67,7 +68,8 @@ import { WarzoneComponent } from './warzone/warzone.component';
     BioshockComponent,
     OriComponent,
     DestinyComponent,
-    WarzoneComponent
+    WarzoneComponent,
+    GenshinComponent
   ],
   imports: [
     CommonModule,

@@ -33,6 +33,7 @@ import { BioshockComponent } from './bioshock/bioshock.component';
 import { OriComponent } from './ori/ori.component';
 import { DestinyComponent } from './destiny/destiny.component';
 import { WarzoneComponent } from './warzone/warzone.component';
+import { GenshinComponent } from './genshin/genshin.component';
 
 const routes: Routes = [
   {
@@ -166,6 +167,10 @@ const routes: Routes = [
   {
     path: 'warzone',
     component: WarzoneComponent
+  },
+  {
+    path: 'genshin',
+    component: GenshinComponent
   },
 ];
 

@@ -216,6 +216,12 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/Warzone/Header.jpg",
 			link: "warzone",
 		},
+		{ 
+			name: "Genshin", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/Genshin/Header.jpg",
+			link: "genshin",
+		},
 	]
 
 	constructor() { }

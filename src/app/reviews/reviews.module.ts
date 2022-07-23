@@ -34,6 +34,8 @@ import { OriComponent } from './ori/ori.component';
 import { DestinyComponent } from './destiny/destiny.component';
 import { WarzoneComponent } from './warzone/warzone.component';
 import { GenshinComponent } from './genshin/genshin.component';
+import { FfviiComponent } from './ffvii/ffvii.component';
+import { Borderlands2Component } from './borderlands2/borderlands2.component';
 
 
 @NgModule({
@@ -69,7 +71,9 @@ import { GenshinComponent } from './genshin/genshin.component';
     OriComponent,
     DestinyComponent,
     WarzoneComponent,
-    GenshinComponent
+    GenshinComponent,
+    FfviiComponent,
+    Borderlands2Component
   ],
   imports: [
     CommonModule,

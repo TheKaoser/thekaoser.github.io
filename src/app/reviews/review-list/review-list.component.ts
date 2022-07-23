@@ -222,6 +222,18 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/Genshin/Header.jpg",
 			link: "genshin",
 		},
+		{ 
+			name: "Final Fantasy VII", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/FFVII/Header.png",
+			link: "ffvii",
+		},
+		{ 
+			name: "Borderlands 2", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/Borderlands2/Header.jpg",
+			link: "borderlands2",
+		},
 	]
 
 	constructor() { }

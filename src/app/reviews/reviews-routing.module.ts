@@ -36,11 +36,16 @@ import { WarzoneComponent } from './warzone/warzone.component';
 import { GenshinComponent } from './genshin/genshin.component';
 import { FfviiComponent } from './ffvii/ffvii.component';
 import { Borderlands2Component } from './borderlands2/borderlands2.component';
+import { TheLastOfUs2Component } from './the-last-of-us2/the-last-of-us2.component';
 
 const routes: Routes = [
   {
     path: '',
     component: ReviewsComponent
+  },
+  {
+    path: 'the-last-of-us2',
+    component: TheLastOfUs2Component
   },
   {
     path: 'new-world',

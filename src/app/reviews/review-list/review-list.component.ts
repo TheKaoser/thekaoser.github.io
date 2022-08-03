@@ -25,6 +25,12 @@ import { Component, OnInit } from '@angular/core';
 export class ReviewListComponent implements OnInit {
 	reviews : { name: string, description: string, image: string, link: string }[] = [ 
 		{ 
+			name: "The Last of Us Parte 2", 
+			description : "New World es sencillo de entender y jugar, pero posee gran profundidad e implicaciones que van más allá del propio jugador.", 
+			image: "assets/imgs/TLOU2/Header.png",
+			link: "the-last-of-us2",
+		},
+		{ 
 			name: "New World", 
 			description : "New World es sencillo de entender y jugar, pero posee gran profundidad e implicaciones que van más allá del propio jugador.", 
 			image: "assets/imgs/NW/NWHeader.jpg",
@@ -217,7 +223,7 @@ export class ReviewListComponent implements OnInit {
 			link: "warzone",
 		},
 		{ 
-			name: "Genshin", 
+			name: "Genshin Impact", 
 			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
 			image: "assets/imgs/Genshin/Header.jpg",
 			link: "genshin",

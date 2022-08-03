@@ -36,6 +36,7 @@ import { WarzoneComponent } from './warzone/warzone.component';
 import { GenshinComponent } from './genshin/genshin.component';
 import { FfviiComponent } from './ffvii/ffvii.component';
 import { Borderlands2Component } from './borderlands2/borderlands2.component';
+import { TheLastOfUs2Component } from './the-last-of-us2/the-last-of-us2.component';
 
 
 @NgModule({
@@ -73,7 +74,8 @@ import { Borderlands2Component } from './borderlands2/borderlands2.component';
     WarzoneComponent,
     GenshinComponent,
     FfviiComponent,
-    Borderlands2Component
+    Borderlands2Component,
+    TheLastOfUs2Component
   ],
   imports: [
     CommonModule,

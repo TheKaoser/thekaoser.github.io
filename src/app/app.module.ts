@@ -34,7 +34,6 @@ import { DarkestDungeonComponent } from './reviews/darkest-dungeon/darkest-dunge
     AboutReviewsComponent,
     ReviewsComponent,
     AboutWebsiteComponent,
-    DarkestDungeonComponent,
   ],
   imports: [
     BrowserModule,

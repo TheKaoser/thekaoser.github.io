@@ -37,6 +37,7 @@ import { GenshinComponent } from './genshin/genshin.component';
 import { FfviiComponent } from './ffvii/ffvii.component';
 import { Borderlands2Component } from './borderlands2/borderlands2.component';
 import { TheLastOfUs2Component } from './the-last-of-us2/the-last-of-us2.component';
+import { ZeldaOcarinaOfTimeComponent } from './zelda-ocarina-of-time/zelda-ocarina-of-time.component';
 
 
 @NgModule({
@@ -75,7 +76,8 @@ import { TheLastOfUs2Component } from './the-last-of-us2/the-last-of-us2.compone
     GenshinComponent,
     FfviiComponent,
     Borderlands2Component,
-    TheLastOfUs2Component
+    TheLastOfUs2Component,
+    ZeldaOcarinaOfTimeComponent
   ],
   imports: [
     CommonModule,

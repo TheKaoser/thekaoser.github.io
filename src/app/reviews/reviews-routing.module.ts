@@ -37,11 +37,16 @@ import { GenshinComponent } from './genshin/genshin.component';
 import { FfviiComponent } from './ffvii/ffvii.component';
 import { Borderlands2Component } from './borderlands2/borderlands2.component';
 import { TheLastOfUs2Component } from './the-last-of-us2/the-last-of-us2.component';
+import { ZeldaOcarinaOfTimeComponent } from './zelda-ocarina-of-time/zelda-ocarina-of-time.component';
 
 const routes: Routes = [
   {
     path: '',
     component: ReviewsComponent
+  },
+  {
+    path: 'zelda-ocarina-of-time',
+    component: ZeldaOcarinaOfTimeComponent
   },
   {
     path: 'the-last-of-us2',

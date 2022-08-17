@@ -37,6 +37,12 @@ export class ReviewListComponent implements OnInit {
 			link: "the-last-of-us2",
 		},
 		{ 
+			name: "God of War", 
+			description : "New World es sencillo de entender y jugar, pero posee gran profundidad e implicaciones que van más allá del propio jugador.", 
+			image: "assets/imgs/GOW/Header.jpg",
+			link: "god-of-war",
+		},
+		{ 
 			name: "New World", 
 			description : "New World es sencillo de entender y jugar, pero posee gran profundidad e implicaciones que van más allá del propio jugador.", 
 			image: "assets/imgs/NW/NWHeader.jpg",

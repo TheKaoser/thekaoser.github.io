@@ -38,6 +38,7 @@ import { FfviiComponent } from './ffvii/ffvii.component';
 import { Borderlands2Component } from './borderlands2/borderlands2.component';
 import { TheLastOfUs2Component } from './the-last-of-us2/the-last-of-us2.component';
 import { ZeldaOcarinaOfTimeComponent } from './zelda-ocarina-of-time/zelda-ocarina-of-time.component';
+import { GodOfWarComponent } from './god-of-war/god-of-war.component';
 
 
 @NgModule({
@@ -77,7 +78,8 @@ import { ZeldaOcarinaOfTimeComponent } from './zelda-ocarina-of-time/zelda-ocari
     FfviiComponent,
     Borderlands2Component,
     TheLastOfUs2Component,
-    ZeldaOcarinaOfTimeComponent
+    ZeldaOcarinaOfTimeComponent,
+    GodOfWarComponent
   ],
   imports: [
     CommonModule,

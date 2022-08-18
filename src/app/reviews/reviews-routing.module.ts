@@ -39,6 +39,7 @@ import { Borderlands2Component } from './borderlands2/borderlands2.component';
 import { TheLastOfUs2Component } from './the-last-of-us2/the-last-of-us2.component';
 import { ZeldaOcarinaOfTimeComponent } from './zelda-ocarina-of-time/zelda-ocarina-of-time.component';
 import { GodOfWarComponent } from './god-of-war/god-of-war.component';
+import { IntoTheBreachComponent } from './into-the-breach/into-the-breach.component';
 
 const routes: Routes = [
   {
@@ -48,6 +49,10 @@ const routes: Routes = [
   {
     path: 'zelda-ocarina-of-time',
     component: ZeldaOcarinaOfTimeComponent
+  },
+  {
+    path: 'into-the-breach',
+    component: IntoTheBreachComponent
   },
   {
     path: 'the-last-of-us2',

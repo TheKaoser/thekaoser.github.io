@@ -31,6 +31,12 @@ export class ReviewListComponent implements OnInit {
 			link: "zelda-ocarina-of-time",
 		},
 		{ 
+			name: "Into the Breach", 
+			description : "New World es sencillo de entender y jugar, pero posee gran profundidad e implicaciones que van más allá del propio jugador.", 
+			image: "assets/imgs/ITB/Header.jpg",
+			link: "into-the-breach",
+		},
+		{ 
 			name: "The Last of Us Parte 2", 
 			description : "New World es sencillo de entender y jugar, pero posee gran profundidad e implicaciones que van más allá del propio jugador.", 
 			image: "assets/imgs/TLOU2/Header.png",

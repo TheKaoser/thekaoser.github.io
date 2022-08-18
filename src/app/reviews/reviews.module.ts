@@ -39,6 +39,7 @@ import { Borderlands2Component } from './borderlands2/borderlands2.component';
 import { TheLastOfUs2Component } from './the-last-of-us2/the-last-of-us2.component';
 import { ZeldaOcarinaOfTimeComponent } from './zelda-ocarina-of-time/zelda-ocarina-of-time.component';
 import { GodOfWarComponent } from './god-of-war/god-of-war.component';
+import { IntoTheBreachComponent } from './into-the-breach/into-the-breach.component';
 
 
 @NgModule({
@@ -79,7 +80,8 @@ import { GodOfWarComponent } from './god-of-war/god-of-war.component';
     Borderlands2Component,
     TheLastOfUs2Component,
     ZeldaOcarinaOfTimeComponent,
-    GodOfWarComponent
+    GodOfWarComponent,
+    IntoTheBreachComponent
   ],
   imports: [
     CommonModule,

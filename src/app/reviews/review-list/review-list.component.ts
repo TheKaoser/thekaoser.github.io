@@ -258,6 +258,18 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/Borderlands2/Header.jpg",
 			link: "borderlands2",
 		},
+		{ 
+			name: "Nier: Automata", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/NierAut/Header.jpg",
+			link: "nier-automata",
+		},
+		{ 
+			name: "The Last of Us", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/TLOU/Header.jpg",
+			link: "the-last-of-us",
+		},
 	]
 
 	constructor() { }

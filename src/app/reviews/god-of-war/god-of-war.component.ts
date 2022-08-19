@@ -14,7 +14,7 @@ import { Component, OnInit } from '@angular/core';
 			<br><br>
 		</div>
 		<div class="review-paragraph">
-			Y es que no solo sus gráficos, animaciones y diálogos son brillantes y precisos. También lo son sus manejabilidad y mecánicas, que sin ser excesivamente innovadoras y desbloquearse demasiado rápido y sin demasiada consideración por parte del jugador, son cinemáticas y satisfactorias. Todo ello se pone en práctica durante esta travesía de Kratos hacia el monte más alto de los 6 reinos, para llevar ahí las cenizas de su fallecida esposa.
+			Y es que no solo sus gráficos, animaciones y diálogos son brillantes y precisos. También lo son sus manejabilidad y mecánicas, que sin ser excesivamente innovadoras y desbloquearse demasiado rápido y sin demasiada consideración por parte del jugador, son cinemáticas y satisfactorias. Todo ello se pone en práctica durante esta travesía de Kratos hacia el monte más alto de los 9 reinos, para llevar ahí las cenizas de su fallecida esposa.
 			<br><br>
 		</div>
 		<img class="review-image-center" src="assets/imgs/GOW/Gameplay.jpg">

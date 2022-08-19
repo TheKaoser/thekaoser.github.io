@@ -270,6 +270,12 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/TLOU/Header.jpg",
 			link: "the-last-of-us",
 		},
+		{ 
+			name: "Far Cry 3", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/FC3/Header.jpg",
+			link: "far-cry3",
+		},
 	]
 
 	constructor() { }

@@ -42,6 +42,7 @@ import { GodOfWarComponent } from './god-of-war/god-of-war.component';
 import { IntoTheBreachComponent } from './into-the-breach/into-the-breach.component';
 import { NierAutomataComponent } from './nier-automata/nier-automata.component';
 import { TheLastOfUsComponent } from './the-last-of-us/the-last-of-us.component';
+import { FarCry3Component } from './far-cry3/far-cry3.component';
 
 
 @NgModule({
@@ -85,7 +86,8 @@ import { TheLastOfUsComponent } from './the-last-of-us/the-last-of-us.component'
     GodOfWarComponent,
     IntoTheBreachComponent,
     NierAutomataComponent,
-    TheLastOfUsComponent
+    TheLastOfUsComponent,
+    FarCry3Component
   ],
   imports: [
     CommonModule,

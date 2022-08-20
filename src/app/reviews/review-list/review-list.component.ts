@@ -282,6 +282,12 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/HK/Header.jpg",
 			link: "hollow-knight",
 		},
+		{ 
+			name: "The Witcher 3", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/TW3/Header.jpg",
+			link: "the-witcher3",
+		},
 	]
 
 	constructor() { }

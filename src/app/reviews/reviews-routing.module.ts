@@ -44,6 +44,7 @@ import { NierAutomataComponent } from './nier-automata/nier-automata.component';
 import { TheLastOfUsComponent } from './the-last-of-us/the-last-of-us.component';
 import { FarCry3Component } from './far-cry3/far-cry3.component';
 import { HollowKnightComponent } from './hollow-knight/hollow-knight.component';
+import { TheWitcher3Component } from './the-witcher3/the-witcher3.component';
 
 const routes: Routes = [
   {
@@ -221,6 +222,10 @@ const routes: Routes = [
   {
     path: 'hollow-knight',
     component: HollowKnightComponent
+  },
+  {
+    path: 'the-witcher3',
+    component: TheWitcher3Component
   },
 ];
 

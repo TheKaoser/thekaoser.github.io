@@ -276,6 +276,12 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/FC3/Header.jpg",
 			link: "far-cry3",
 		},
+		{ 
+			name: "Hollow Knight", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/HK/Header.jpg",
+			link: "hollow-knight",
+		},
 	]
 
 	constructor() { }

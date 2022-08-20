@@ -43,6 +43,7 @@ import { IntoTheBreachComponent } from './into-the-breach/into-the-breach.compon
 import { NierAutomataComponent } from './nier-automata/nier-automata.component';
 import { TheLastOfUsComponent } from './the-last-of-us/the-last-of-us.component';
 import { FarCry3Component } from './far-cry3/far-cry3.component';
+import { HollowKnightComponent } from './hollow-knight/hollow-knight.component';
 
 const routes: Routes = [
   {
@@ -216,6 +217,10 @@ const routes: Routes = [
   {
     path: 'far-cry3',
     component: FarCry3Component
+  },
+  {
+    path: 'hollow-knight',
+    component: HollowKnightComponent
   },
 ];
 

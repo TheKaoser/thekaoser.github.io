@@ -294,6 +294,18 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/TESO/Header.jpg",
 			link: "teso",
 		},
+		{ 
+			name: "Zelda: Breath of the Wild", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/BOTW/Header.jpg",
+			link: "zelda-botw",
+		},
+		{ 
+			name: "Sekiro", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/Sekiro/Header.jpg",
+			link: "sekiro",
+		},
 	]
 
 	constructor() { }

@@ -46,6 +46,8 @@ import { FarCry3Component } from './far-cry3/far-cry3.component';
 import { HollowKnightComponent } from './hollow-knight/hollow-knight.component';
 import { TheWitcher3Component } from './the-witcher3/the-witcher3.component';
 import { TesoComponent } from './teso/teso.component';
+import { ZeldaBotwComponent } from './zelda-botw/zelda-botw.component';
+import { SekiroComponent } from './sekiro/sekiro.component';
 
 const routes: Routes = [
   {
@@ -231,6 +233,14 @@ const routes: Routes = [
   {
     path: 'teso',
     component: TesoComponent
+  },
+  {
+    path: 'zelda-botw',
+    component: ZeldaBotwComponent
+  },
+  {
+    path: 'sekiro',
+    component: SekiroComponent
   },
 ];
 

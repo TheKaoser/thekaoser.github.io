@@ -306,6 +306,12 @@ export class ReviewListComponent implements OnInit {
 			image: "assets/imgs/Sekiro/Header.jpg",
 			link: "sekiro",
 		},
+		{ 
+			name: "Sea of Thieves", 
+			description : "Aprovecha la realidad virtual en cada una de sus partes de manera original y espectacular.", 
+			image: "assets/imgs/SOT/Header.jpg",
+			link: "sea-of-thieves",
+		},
 	]
 
 	constructor() { }

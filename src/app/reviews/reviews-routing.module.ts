@@ -48,6 +48,7 @@ import { TheWitcher3Component } from './the-witcher3/the-witcher3.component';
 import { TesoComponent } from './teso/teso.component';
 import { ZeldaBotwComponent } from './zelda-botw/zelda-botw.component';
 import { SekiroComponent } from './sekiro/sekiro.component';
+import { SeaOfThievesComponent } from './sea-of-thieves/sea-of-thieves.component';
 
 const routes: Routes = [
   {
@@ -241,6 +242,10 @@ const routes: Routes = [
   {
     path: 'sekiro',
     component: SekiroComponent
+  },
+  {
+    path: 'sea-of-thieves',
+    component: SeaOfThievesComponent
   },
 ];
 

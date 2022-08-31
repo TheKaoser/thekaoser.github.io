@@ -18,8 +18,8 @@ import { Component, OnInit } from '@angular/core';
     </div>
   `,
   styles: [
-	'#skillCards { margin-top: 200px; margin-left: 2.5%; margin-right: -2.5%; }',
-	'.skillCard { margin-left: 12.5%; margin-bottom: 200px; width: 15%; height: 400px; float: left; background-color: #6f56ff; color: white; }',
+	'#skillCards { display: flex; width: 70%; margin: auto; justify-content: space-between; margin-bottom: 5%; }',
+	'.skillCard { width: 20%; height: 400px; float: left; background-color: #6f56ff; color: white; border-radius: 10px; }',
   ]
 })
 export class SkillsComponent implements OnInit {

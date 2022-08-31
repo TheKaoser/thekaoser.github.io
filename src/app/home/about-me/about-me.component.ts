@@ -22,7 +22,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
     </div>
   `,
 	styles: [
-		'#about-me { position: relative; margin-top: 100px; text-align: justify; }',
+		'#about-me { position: relative; margin-top: 100px; text-align: justify; margin-bottom: 5%; }',
 		'.me-text { width: 35%; margin-left: 15%; margin-top: 15px; font-size: 15px; max-width: 700px; color: white; }',
 		'#photo { position: absolute; max-width: 500px; top: -70%; right: 15%; object-fit: cover; }',
 	]

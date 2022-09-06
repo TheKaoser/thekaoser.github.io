@@ -6,8 +6,8 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
     <nav class="navbar is-black py-1" id="header" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item ml-2 p-4" routerLink=""><img src="assets/icons/Kaoser.png"></a>
-            <a class="navbar-item mx-4 is-size-6 is-italic" routerLink="projects">PROJECTS</a>
-            <a class="navbar-item mx-4 is-size-6 is-italic" routerLink="reviews">REVIEWS</a>
+            <a class="navbar-item mx-4 small-text is-italic" routerLink="projects">PROJECTS</a>
+            <a class="navbar-item mx-4 small-text is-italic" routerLink="reviews">REVIEWS</a>
             <a (click)="toggleNavbar()" #navBurger role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarSocials">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>

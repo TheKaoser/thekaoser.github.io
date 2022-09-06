@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			Por desgracia, la jugabilidad queda en segundo plano. Aunque es relativamente cómoda y no demasiado difícil, el combate dispone de apuntado automático de las varias armas que acabaremos teniendo pero que dispondrán de poca personalización y estrategia de uso. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/RDR/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/RDR/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Los acontecimientos, narrados en forma de misiones de corta duración y sin orden estricto, nos llevarán también a México, donde la población no solo odia a los estadounidenses, si no que también tienen conflictos internos entre la clase alta y la baja. Finalmente, volveremos a Texas, donde comienza la era industrial con casas más modernas, los primeros automóviles y pistolas más recientes. Aquí concluimos la caza de nuestro hermano y nos podremos retirar a nuestro rancho con nuestra mujer e hijo. 

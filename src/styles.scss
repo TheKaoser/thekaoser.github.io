@@ -2,118 +2,96 @@
 @import '../node_modules/bulma/css/bulma.css';
 
 .is-italic {
-    font-family: 'Lato', sans-serif;
-    font-style: italic;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
 }
 
 .is-bold {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    font-style: italic;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-style: italic;
 }
 
-body { 
-    background-image: radial-gradient(rgb(102, 79, 202), rgb(194, 188, 255));
+body {
+	background-image: radial-gradient(rgb(102, 79, 202), rgb(194, 188, 255));
 	font-size: clamp(10px, 3vw, 20px);
 }
 
 .review-detail {
-    position: relative;
-    width: clamp(350px, 70%, 1000px);
+	position: relative;
+	width: clamp(350px, 70%, 1000px);
 	margin: auto;
 	margin-top: 5%;
 }
 
 .review-image {
-    border-radius: 10px;
+	border-radius: 10px;
 }
 
-.review-image-right {
-    border-radius: 10px;
-    float: right;
-    margin-right: 15%;
-    margin-left: 20px;
-}
-
-.review-image-left {
-    border-radius: 10px;
-    float: left;
-    margin-left: 15%;
-    margin-right: 20px;
-}
-
-.review-image-center {
-    border-radius: 10px;
-    margin: auto;
-    display: block;
+.review-image {
+	border-radius: 10px;
+	margin: auto;
+	display: block;
 }
 
 .review-first-letter {
-    float: left;
-    font-size: 70px;
-    margin-right: 20px;
-    color: white;
-    @extend .is-bold;
+	float: left;
+	margin-right: 0.5em;
+	color: white;
+	@extend .big-text;
+	@extend .is-bold;
 }
 
 .review-intro {
-    font-size: 20px; 
-    color: white;
-    margin:auto;
-    text-align: justify;
-    @extend  .is-italic;
+	color: white;
+	margin: auto;
+	text-align: justify;
+	@extend .small-text;
+	@extend .is-bold;
 }
 
 .review-paragraph {
-    font-size: 18px; 
-    color: white;
-    margin:auto;
-    text-align: justify;
-    @extend .is-italic;
-}
-
-.review-quote-left {
-    float: left;
-    margin-left: 25%;
-    font-size: 30px;
-    margin-right: 50px;
-    margin-bottom: 25px;
-    width: 15%;
-    color: white;
-    text-align: right;
-    @extend .is-bold;
-}
-
-.review-quote-right {
-    float: right;
-    margin-right: 25%;
-    font-size: 30px;
-    margin-left: 50px;
-    margin-bottom: 25px;
-    width: 15%;
-    color: white;
-    text-align: left;
-    @extend .is-bold;
+	color: white;
+	margin: auto;
+	text-align: justify;
+	@extend .small-text;
+	@extend .is-italic;
 }
 
 .review-conclusion {
-    border-radius: 10px;
-    color: white;
-    font-size: 20px; 
-    padding: 2%;
-    text-align: justify;
-    background-color: #826dfa;
-    margin-bottom: 250px;
-    @extend .is-italic;
+	border-radius: 10px;
+	color: white;
+	padding: 2%;
+	text-align: justify;
+	background-color: #826dfa;
+	margin-bottom: 10%;
+	@extend .small-text;
+	@extend .is-italic;
 }
 
 .title {
-    margin: 0; 
-    position: absolute; 
-    top: clamp(150px, 25vw, 500px); //25vw; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    color: white; 
-    font-size: 3em;
-    @extend .is-bold;
+	white-space: nowrap;
+	position: absolute;
+	top: clamp(150px, 25vw, 500px);
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	@extend .big-text;
+	@extend .is-bold;
+}
+
+.big-text {
+	font-size: 3em;
+}
+
+.medium-text {
+	font-size: 2em;
+}
+
+.small-text {
+	font-size: 1em;
+}
+
+.splashart {
+	margin-bottom: 5%;
 }

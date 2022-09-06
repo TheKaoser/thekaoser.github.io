@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			Durante el viaje se presenta la opción de salvar o matar a unas niñas llamadas Little sisters, protegidas por robots diseñados para el combate: los Big Daddys. Ellas son las utilizadas para incubar el ADAM y podremos matarlas para adquirirlo en beneficio propio, o de salvarlas sin obtener mejoras genéticas. Un interesante dilema que condiciona el final de la aventura. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Bioshock/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/Bioshock/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Las mejoras genéticas, llamadas plásmidos, agregan poderes como un rayo que electrocuta a enemigos, una llama para quemarlos, un hipnotizador para volver enemigos de tu lado o telequinesis para bloquear y devolver proyectiles. Desafortunadamente, hay demasiados plásmidos y armas, lo que hace confuso qué usar cuando. 

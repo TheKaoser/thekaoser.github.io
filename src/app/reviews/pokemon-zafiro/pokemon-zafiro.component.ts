@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			Nuestra misión será frustrar sus planes con los Pokemons que descubramos y decidamos entrenar. Durante la aventura nos enfrentaremos a, tal vez demasiados, Pokémon salvajes y entrenadores distribuidos por el mapa con los que podremos ir subiendo de nivel nuestro equipo. También iremos personalizándolos a base de MOs (Movimientos ocultos) como talar árboles, romper rocas, nadar o volar para poder acceder a nuevas zonas. Estos movimientos se conseguirán en los 6 Gimnasios Pokémon, con Pokémons de un tipo concreto y un líder. Además, podremos enfrentarnos a nuestros amigos en cualquier momento.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/PZ/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/PZ/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Cuando encuentras un Pokémon salvaje tienes la opción de intentar capturarlo lanzándole Pokeballs con diferentes probabilidades. Si el Pokémon es de menor nivel, tiene poca vida o está bajo los efectos paralizado, dormido, etc., la probabilidad aumenta. Todos los Pokémon tienen un tipo que determina sus debilidades. Tanto el tipo de cada Pokémon como estas debilidades son ocultas y relativamente complicadas de deducir; creo debería incluirse esta información en el juego.

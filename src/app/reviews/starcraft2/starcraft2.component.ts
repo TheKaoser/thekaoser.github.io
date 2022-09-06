@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
 			Se usa únicamente de 2 recursos: uno principal, los minerales, y otro más avanzado, el vespeno. Estos se sitúan minuciosamente sobre los limitados mapas, diseñados a conciencia para adaptarse al número de jugadores que los ocupan. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/SC2/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/SC2/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Cada facción, Zerg, Terran y Protoss, cuenta con su modo de construir, ya sea a través de la fabricación, plantando una semilla o transformándose en la propia construcción. Las construcciones son complementarias y su orden de creación es influyente y permite acceder a nuevas creaciones. Las tropas tienen diferentes costes y mejoras, lo que hace que se pueda optar por ataques más o menos contundentes y en diferentes etapas de la partida.

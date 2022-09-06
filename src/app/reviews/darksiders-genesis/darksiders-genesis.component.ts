@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			Desde un salón que actúa como lobby, iremos seleccionando el siguiente capítulo y estableciendo, con los recursos obtenidos, habilidades activas y pasivas. Cada capítulo podrá ser jugado en la dificultad elegida, variando así también la cantidad de recompensas, algo muy de agradecer. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/DSG/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/DSG/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Cada capítulo se desarrolla en un mapa; todos disponen de interesantes diseños y se pueden explorar en profundidad si se desean obtener todos sus recursos. Son muy diferentes y contienen en dosis similares acción frenética y puzzles que se resolverán combinando ciertas mecánicas de Lucha y Guerra. 

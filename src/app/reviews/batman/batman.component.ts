@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			El desarrollo, al igual que las mejoras, es bastante lineal y estándar. Lo compensa un poquito añadiendo a cada instancia un acertijo o trofeo oculto de opcional resolución.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Batman/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/Batman/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			El combate es sencillo y funcional, en ocasiones gustoso. Los golpes se dirigen automáticamente al enemigo más cercano y la dificultad reside en reaccionar a los indicadores encima de los enemigos para  contraatacar o esquivar dependiendo del ataque. Los enemigos con armas de fuego tienen un daño muy elevado y obligan a usar sigilo a través de conductos de ventilación y gárgolas para pillarlos desprevenidos. 

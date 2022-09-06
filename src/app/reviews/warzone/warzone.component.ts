@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			El objetivo final de las partidas, ya sea acompañado por hasta tres jugadores o solo, es acabar con el resto de equipos antes de que ellos lo hagan con el tuyo. Para ello debemos mantenernos dentro del área circular, rodeada de gas cada vez más pequeña e inicialmente aleatoria, usando o no medios de transporte, e ir recogiendo loot del suelo, cajas, enemigos o de tiendas con dinero obtenido, entre otras cosas, al completar desafíos llamados contratos. Los desafíos son una innovación propia, que queda muy bien al darnos entretenimiento mientras tratamos de sobrevivir hasta el final.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Warzone/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/Warzone/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Lo más importante que podemos recoger son armas, que vienen con un número de accesorios acorde a su color que más tarde podemos modificar al encontrar nuevos. Estos pueden mejorar los disparos desde la cadera, aumentar sus distancias efectivas, potenciar el daño, hacerlas silenciosas. Lo segundo más importante es la munición, según el tipo de arma. Finalmente encontramos placas de escudo, para reducir el daño recibido, equipo táctico, como granadas cegadoras o un radar, equipo letal, como claymores o cócteles molotov o máscaras para resistir al gas durante unos segundos entre otras cosas. Todo esto, empleado de la forma correcta, es ventana a todo tipo de estrategias y situaciones con un alto nivel de habilidad intrínseco. 

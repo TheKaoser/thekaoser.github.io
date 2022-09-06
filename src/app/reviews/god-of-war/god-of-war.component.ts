@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
 			Y es que no solo sus gráficos, animaciones y diálogos son brillantes y precisos. También lo son sus manejabilidad y mecánicas, que sin ser excesivamente innovadoras y desbloquearse demasiado rápido y sin demasiada consideración por parte del jugador, son cinemáticas y satisfactorias. Todo ello se pone en práctica durante esta travesía de Kratos hacia el monte más alto de los 9 reinos, para llevar ahí las cenizas de su fallecida esposa.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/GOW/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/GOW/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Le acompaña su hijo Atreus, con el que su relación madura a lo largo de la aventura. Por una parte, por la confianza que va depositando Kratos en él y, por otra, por el paulatino descubrimiento de Atreus de ser un dios y su posterior asimilación. Así, Kratos acaba relevando las atrocidades que cometió en el pasado y Atreus termina dándose cuenta de que no debe imitar sus pasos.
@@ -25,7 +25,7 @@ import { Component, OnInit } from '@angular/core';
 			Sin embargo, esta no es la única relación que madura a lo largo del juego; nuestro enemigo Baldur, quien vive atormentado a causa de su inmortalidad, también persigue a su madre, quien le concedió dicha condición a cambio de la pérdida de sus sentidos. Nadie: hombres ni dioses, se salvan de dilemas y sufrimientos y God of War los trata a la perfección creando un drama de lo más creíble en el que congeniamos con cada uno de los 4 personajes y sus motivos.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/GOW/Cinematic.jpg">
+		<img class="review-image" src="assets/imgs/GOW/Cinematic.jpg">
 		<div class="review-paragraph">
 			<br>
 			Otro punto a subrayar son los combates cinemáticos que aparecen de tanto en tanto. Escenas gustosas de ver y controlar en las que saltamos entre las escamas de un enorme dragón, lanzamos a Baldur contra aplicaciones de piedra o nos sujetamos a este mismo en la caída libre desde un gigante a la par que Atreus dispara su arco. Su integración con el gameplay es impecable y sirven como puente a la resolución de conflictos congruentes con la historia.

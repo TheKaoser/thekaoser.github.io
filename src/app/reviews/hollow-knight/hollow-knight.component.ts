@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			Nuestras herramientas de transporte y combate incluyen deslizamientos laterales, agarre a la pared, un proyectil o un salto con impacto hacia abajo. Algunos de ellos consumen una energía que se recupera al matar enemigos; energía que también puede usarse para restablecer la salud. Un compromiso de lo más interesante.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/HK/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/HK/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Como en los souls, el argumento es oscuro y no narrado. A través del mapa hallamos el motivo de la caída del reino: El Destello creó un virus para poseer todas las criaturas de Hallownest, ante lo cual el rey intentó crear una criatura hueca que pudiera albergar la infección y ser sellada con la fuerza de los soñadores. Sí, encarnamos uno de los múltiples intentos fallidos de la creación de dicha cáscara.

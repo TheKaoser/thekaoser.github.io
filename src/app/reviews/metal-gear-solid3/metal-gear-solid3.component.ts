@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			La aventura te pondrá en la piel de Snake, un agente de la CIA americano, que tiene como propósito desmantelar la creación de un arma nuclear rusa llamada Shagohod. Para ello se enfrentará contra el Coronel Volgin y sus secuaces y a la Unidad Cobra, conformada por jefes con debilidades específicas que tendremos que averiguar para poder derrotar. Por suerte, contaremos con una espía, EVA, la cual nos desvelará los secretos de los complejos donde debemos infiltrarnos. A pesar de su instrucción y fuerza de voluntad, Snake acabará siendo seducido por ella. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/MGS3/Gameplay.jpeg">
+		<img class="review-image" src="assets/imgs/MGS3/Gameplay.jpeg">
 		<div class="review-paragraph">
 			<br>
 			Al final ocurren varios giros de argumento, anonadantes y bien maquinados. The Boss resulta estar de parte del enemigo y con suma tristeza debemos acabar con ella. Además, pronto descubrimos que EVA ha huido, desvelándose que trabaja para los chinos y nos ha utilizado para robar el dinero con el que se subvencionaba el Shagohod. Pero esto es solo el principio de la tragedia: como cúlmen, The Boss no era una traidora, había sido descubierta públicamente con el Coronel y por ello se había sacrificado para demostrar que no quedaba nadie a favor de la guerra nuclear. 

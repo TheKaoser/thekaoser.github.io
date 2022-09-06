@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			Tras una cuidada evolución, Ellie va reemplazando el vacío que dejó su hija y le hace tomar la controvérsica decisión de engañar a la chica para salvarla de la finalmente mortal investigación de los Luciérnagas, denegando así el hallazgo de una cura para el resto de la humanidad.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/TLOU/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/TLOU/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Es un juego corto que cuida los detalles meticulosamente. El entorno cuenta historias que ayudan a comprender la situación general, hay numerosas animaciones para distintos estados del personaje y las conversaciones entre los personajes son ingeniosas y se adaptan al gameplay. Sin embargo, el realismo compite a veces con la fluidez o el balance. Para cambiar de arma debes sacar la mochila con su respectiva animación y solo sobre superficies estables. Algunas mecánicas requieren menos habilidad que otras con el mismo efecto como esperar a contraatacar para matar de un golpe o lanzar botellas apuntadas automáticamente dejando al rival en un estado en el que se pueden ejecutar con un botón. Otros ejemplos son la redundancia de objetos con el mismo efecto como botellas y ladrillos, y la inutilidad de bombas de humo o el aumento de la mejora de velocidad de fabricación.

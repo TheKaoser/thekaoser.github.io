@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
             Por medio de la increíblemente dotada Aloy junto con su Foco, hallado en unas ruinas del mundo antiguo, que nos permite analizar a los enemigos y escanear sus puntos débiles, podremos experimentar un gameplay muy diverso y entretenido de sigilo, sabotaje de robots para convertirlos en aliados, táctica, a través de la colocación estratégica de trampas, y acción, a base de lanzazos cuerpo a cuerpo y tiros con arco a distancia. Todo eso mientras aprendemos habilidades para ralentizar el tiempo momentáneamente, realizar nuevos golpes desde diferentes perspectivas y recolectar una mayor cantidad de objetos que nos servirán para fabricar flechas o restaurar nuestra salud entre otras muchas opciones. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/HZD/Combat.jpg">
+		<img class="review-image" src="assets/imgs/HZD/Combat.jpg">
 		<div class="review-paragraph">
 			<br>
 			La aventura nos dará pie a explorar un inmenso mapa de mundo abierto repleto de riqueza en forma de cuidadas misiones secundarias; enormes robots llamados cuellilargos que, al ser escalados y saboteados, desbloquean la niebla del mapa a su alrededor; calderos, donde se crean los robots, que nos permitirán adquirir un conocimiento más profundo de ciertas máquinas para poder sabotearlas; o campamentos de bandidos que deberemos limpiar en los que podremos rescatar prisioneros o evitar que activen la alarma, llamando a refuerzos.

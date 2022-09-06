@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			Desde el inicio, se nos presenta al espíritu negro, un personaje entrañable que nos acompañará constantemente aconsejándonos y temáticamente proveyendo nuestro poder. Estamos en un mapa colosal lleno de regiones: Velia, Calpheon, Valencia, Kamasilva, Odylita, etc. las cuales se van descubriendo paulatinamente. Moverse entre ellas es lento, con travesías a caballo que alcanzan los 20 minutos. O considerablemente más largas andando, en caso de no tener acceso a un establo. Esto crea aún mayor sensación de inmensidad. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/BDO/Character.png">
+		<img class="review-image" src="assets/imgs/BDO/Character.png">
 		<div class="review-paragraph">
 			<br>
 			El mapa dispone de variedad de entornos, criaturas y misiones que fomentan su exploración. Descubriremos lugares para que aparezcan en el mapa, hablaremos con NPCs para conocer su ocupación y mataremos criaturas para poder ver su barra de vida, mejorar nuestro daño y defensa contra ellas, y el botín que sueltan sucesivamente. Todo ello proporciona puntos de conocimiento: un tope que limita el máximo de energía que puede tener un personaje. Los personajes de una cuenta (o familia) comparten su conocimiento, pero su energía es independiente y se recarga con el tiempo. Esta se puede canjear por fórmulas o recetas, buffos temporales o trabajar en alguna profesión (más adelante explicaré qué significa esto). En otras palabras, el incentivo para explorar es innovador, recompensante y entretenido.
@@ -27,7 +27,7 @@ import { Component, OnInit } from '@angular/core';
 			Además, se puede explorar y matar en grupos de hasta 5. La experiencia recibida y botines son menores por miembro, pero, como se comparten las hazañas del resto de miembros, puede ser una opción recomendable si se matan lo suficientemente rápido y dentro del radar del grupo. Está sabiamente pensado para ser jugado en grupo o solitario, sin dar excesiva ventaja a uno de los bandos. De todos modos, a veces, jugadores poderosos suben de nivel a otros menos poderosos con este sistema. Lo llamado leechear.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/BDO/Group.jpg">
+		<img class="review-image" src="assets/imgs/BDO/Group.jpg">
 		<div class="review-paragraph">
 			<br>
 			No todas las interacciones entre jugadores son amigables, por fortuna. Mi adorado PVP siempre está activo, aunque morir contra un jugador no conlleva ninguna pérdida salvo la posición. En servidores normales, agredir a otros reducirá la reputación, lo que hará que el resto no pierdan la suya al matarte y que puedas perder experiencia y cristales (explicados más adelante) si eso ocurre. En el resto de servidores, las criaturas otorgan mayor cantidad de drops, pero no se penaliza a los agresores de ninguna manera.
@@ -37,7 +37,7 @@ import { Component, OnInit } from '@angular/core';
 			Pero la cosa no acaba aquí. El mapa está lleno de nodos en los que podemos invertir para poder comprar viviendas, comerciar o fabricar objetos en dicho nodo. Lo mejor es que podemos contratar trabajadores, darles una vivienda, y hacer que viajen entre nodos vendiendo lo que han adquirido de forma automática. Es una forma secundaria, más lenta, de obtener ingresos pasivos.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/BDO/Fishing.jpg">
+		<img class="review-image" src="assets/imgs/BDO/Fishing.jpg">
 		<div class="review-paragraph">
 			<br>
 			La configuración de nuestro personaje es extensa. El nivel determina las habilidades disponibles y los puntos de habilidad sirven para adquirirlas o potenciarlas. Ambas cosas aumentan conforme se grindean enemigos (y existen multitud de objetos que potencian su obtención) o se pierden al morir contra estos. El nivel sube de manera factible hasta el 60 y lentísima a partir de este, siendo las últimas habilidades prácticamente inalcanzables. La parte buena es que nunca se pierde la sensación de progresión. 

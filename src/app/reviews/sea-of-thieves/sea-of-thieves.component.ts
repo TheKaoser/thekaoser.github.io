@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			En cualquier caso, siempre perseguimos jugosas recompensas para llevarlas de vuelta a un puesto comercial, intentando no ser abordado y robado por otros jugadores. Con el oro, compramos apariencias para las distintas piezas de nuestro barco, ropajes o accesorios (armas, brújula, instrumentos…). Una recompensa insuficientemente jugosa, en mi opinión. Alguna sutil estadística para nuestro pirata no estaría de más. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/SOT/Gameplay.png">
+		<img class="review-image" src="assets/imgs/SOT/Gameplay.png">
 		<div class="review-paragraph">
 			<br>
 			Las travesías conllevan diferentes tareas que se distribuyen entre la tripulación: manejar el timón, modificar la altura y dirección de las velas, comprobar el rumbo en el mapa, vigilar con el catalejo a barcos enemigos, disparar los cañones o el arpón contra posibles megalodones o pescar. Llegado el combate, no es nada del otro mundo. Podemos disparar o golpear con la espada. Sencillamente cumple.

@@ -19,7 +19,7 @@
 			También hay diversos puestos enemigos que se pueden conquistar para obtener un punto de teletransporte y experiencia. Si empeñas el ingenio suficiente, es posible hacerlo sin ser descubierto. En efecto, el sigilo es uno de los puntos fuertes, siendo muy ventajoso usarlo por la eliminación rápida de enemigos de esta forma y la prevención de que activen alarmas que llaman a más enemigos. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/FC3/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/FC3/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			El progreso permite adquirir habilidades pasivas para realizar ejecuciones en determinadas situaciones como coger el cuchillo de un enemigo al matarlo y lanzarlo, accionar su pistola o granada, eliminar al enemigo desde las alturas o desde el agua... Quizá lo más divertido sea planear estrategias para derrotar grupos enteros empleando las habilidades desbloqueadas de forma óptima y limpia.

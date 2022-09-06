@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			La historia es sencilla, precuela de Half Life 2, y nos pone en el papel de Alyx, quien deberá, con la ayuda del científico Russell, acabar con las fuerzas de la poderosa alianza. Ellos son culpables de traer a la tierra especies alienígenas tales como los Headcrabs, con la capacidad de poseer a humanos, o los Vortigaunts, con habilidades mentales telequinéticas. Estos últimos, empleados por la alianza para dar poder a sus armas de destrucción, se aliarán con nosotros en su contra. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/HLA/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/HLA/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Muchas mecánicas resultan novedosas ya que es un campo en descubrimiento y sin demasiados AAA que lo exploten, como es el caso. Algunas de ellas son el tener que taparse la boca para no aspirar gases venenosos, la resolución de puzles a través de la conexión de elementos jugando con la cámara y las manos, la adquisición de objetos usando la fuerza de los guantes de gravedad e incorporándolos a nuestro inventario acercando la mano a la espalda, etc. 

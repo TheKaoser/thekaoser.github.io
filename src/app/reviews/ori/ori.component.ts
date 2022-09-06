@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			La historia es sencilla y sentimental. El corazón del bosque ha sido robado por el búho Kuro, resentido por la muerte de sus hijos; por tanto debemos salvar el bosque devolviendo su agua, viento y quitando la lava. Finalmente, nos sorprenderá y sobrecogerá el propio Kuro siendo quien, momentos antes de querer matarnos junto a nuestro padre, se vea identificado y restaure el mismo el bosque sacrificándose.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Ori/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/Ori/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Algo en lo que destaca Ori, son unos momentos frenéticos en los que deberemos escapar de algún elemento de forma veloz. Para ello acabaremos conociendo la ruta de escape a la perfección, tras varios intentos.

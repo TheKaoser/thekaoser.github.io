@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			Cada central destruida se resta a nuestra energía, para determinar si sigue la partida.... o si se reinicia guardando escasos progresos. A pesar del peso que esto supone, a través del ofertado abanico de escuadrones con los que jugar y la generación aleatoria de los niveles, es considerable empezar de nuevo. Pero ante todo, el sistema es merecedor de su existencia gracias a la tensión que suscita durante cada partida, haciendo cada movimiento meditado a conciencia.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/ITB/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/ITB/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Los niveles transcurren con estructuras similares. Cada turno, los enemigos se desplazan e indican sus objetivos de ataque. Lo mismo ocurre con eventos como paso de trenes, meteoritos, o bombardeos aéreos de terceros. Nuestra misión es evitar con nuestro escuadrón que dichos enemigos lo dañen, o a nuestras centrales y objetivos secundarios. Su set de habilidades varía según el escuadrón; algunas que dañan al enemigo, otras que los desplazan o los hace recibir más daño, y otras para proteger o teletransportar aliados. 

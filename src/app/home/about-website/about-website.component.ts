@@ -3,27 +3,26 @@ import { Component, OnInit } from '@angular/core';
 @Component({
 	selector: 'app-about-website',
 	template: `
-	<div style="clear: both"></div>
 	<div id="about-list">
 		<div class="about-element">
 			<a routerLink="projects"> 
-				<div>
-					<p class="text-left is-size-1 is-bold" style="top: 17%">EXPLORE MY PROJECTS</p>
-					<div class="text-left is-size-6 is-italic" style="top: 65%">
-						Whatever your taste in video games is, you will find something for you.
+				<div class="about-components">
+					<div class="about-texts" id="about-text-left">
+						<p class="big-text is-bold">EXPLORE MY PROJECTS</p>
+						<p class="small-text is-italic">Whatever your taste in video games is, you will find something for you.</p>
 					</div>
-					<img class="image-left" src="assets/imgs/SuckedSouls.png">
+					<img class="about-image" src="assets/imgs/SuckedSouls.png">
 				</div>
 			</a>
 		</div>
 		<div class="about-element">
 			<a routerLink="reviews"> 
-				<div>
-					<p class="text-right is-size-1 is-bold" style="top: 17%">READ MY REVIEWS</p>
-					<div class="text-right is-size-6 is-italic" style="top: 65%">
-						Read my thoughts on some of the most iconic games of all times.
+				<div class="about-components">
+					<img class="about-image" src="assets/imgs/ReviewsCut.png">
+					<div class="about-texts" id="about-text-right">
+						<p class="big-text is-bold">READ MY REVIEWS</p>
+						<p class="small-text is-italic">Read my thoughts on some of the most iconic games of all times.</p>
 					</div>
-					<img class="image-right" src="assets/imgs/ReviewsCut.png">
 				</div>
 			</a>
 		</div>
@@ -31,11 +30,14 @@ import { Component, OnInit } from '@angular/core';
   `,
 	styles: [
 		'#about-list { display: flex; flex-direction: column; align-items: center; width: 100% }',
-		'.about-element { position: relative; width: 70%; background-color: #6f56ff; border-radius: 10px; margin-bottom: 5%; }',
-		'.text-left { position: absolute; margin: 0; left: 6%; right: 70%; color: white; }',
-		'.text-right { position: absolute; margin: 0; right: 6%; left: 70%; color: white; text-align: right; }',
-		'.image-left { margin-left: 50%; width: 50%; border-radius: 10px; }',
-		'.image-right { margin-right: 50%; width: 50%; border-radius: 10px; }',
+		'.about-element { position: relative; width: 70%; background-color: #6f56ff; border-radius: 10px; margin-bottom: 10%; }',
+		'.about-components { display: flex; justify-content: space-between; }',
+		'.about-texts { display: flex; flex-direction: column; margin: 5%; width: 25%; }',
+		'#about-text-left { color: white; }',
+		'#about-text-right { color: white; text-align: right; }',
+		'.about-image { width: 50%; border-radius: 10px; object-fit: contain; }',
+		'@media screen and (max-width: 1200px){ .about-components { flex-direction: column; } .about-image { width: 100%; } .about-texts{ width: 90%; } #about-text-right{ text-align: left; }}',
+		'@media screen and (min-width: 1200px){ .about-image { width: 50%; } .about-texts{ width: 60% }}',
 	]
 })
 export class AboutWebsiteComponent implements OnInit {

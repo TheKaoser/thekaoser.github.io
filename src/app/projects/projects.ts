@@ -1,27 +1,27 @@
-const projects : { name: string, description: string, image: string, github?: string, youtube?: string, itch?: string, playstore?: string, gamejolt?: string, highlights: string[] }[] = [ 
+const projects : { name: string, description: string, image: string, github?: string, youtube?: string, link?: string, highlights: string[] }[] = [ 
 	{ 
 		name: "Sucked Souls", 
 		description : "The undead can endlessly try to recover humanity by stealing souls... But being a human atracts evil.", 
 		image: "assets/imgs/SuckedSouls.png",
 		github: "https://github.com/TheKaoser/sucked-souls",
-		itch: "https://thekaoser.itch.io/suck-souls",
-		highlights: ["AI Navigation", "Highscore vs IA"]
+		link: "https://thekaoser.itch.io/suck-souls",
+		highlights: ["AI Navigation", "Highscore"]
 	},
 	{ 
 		name: "Time Keeper", 
 		description : "You are the Timekeeper. You must keep the gears of time moving forward by running against them. Avoid obstacles by changing your way but without changing your path and keep time moving eternally.", 
 		image: "assets/imgs/TimeKeeper.png",
 		github: "https://github.com/TheKaoser/time-keeper",
-		itch: "https://threeraccoonsgames.itch.io/timekeeper",
-		highlights: ["Procedural gears", "Black and White art"]
+		link: "https://threeraccoonsgames.itch.io/timekeeper",
+		highlights: ["Procedural Gears", "Black & White"]
 	},
 	{ 
 		name: "UFLINE", 
 		description : "Push your tactical skills to their limits in this addictive UFO-themed minigame that will make you feel thrilling tension when played alone, and also cause countless friendship breakups when played against your equally noob fellows.", 
 		image: "assets/imgs/UFLINE.png",
 		github: "https://github.com/TheKaoser/ufline",
-		gamejolt: "https://gamejolt.com/games/ufline/637773",
-		highlights: ["Local Multiplayer", "Highscore vs IA"]
+		link: "https://gamejolt.com/games/ufline/637773",
+		highlights: ["Local Multiplayer", "Highscore"]
 	},
 	{ 
 		name: "Basic RPG", 
@@ -29,8 +29,8 @@ const projects : { name: string, description: string, image: string, github?: st
 		image: "assets/imgs/BasicRPG.png",
 		github: "https://github.com/TheKaoser/basic-rpg",
 		youtube: "https://www.youtube.com/watch?v=S8x_KV-txLo",
-		playstore: "https://play.google.com/store/apps/details?id=com.dreamingbig.basicrpg",
-		highlights: ["FB Authentication/Database", "Shared Market", "PVP Arena", "2D Spine Animations"]
+		link: "https://play.google.com/store/apps/details?id=com.dreamingbig.basicrpg",
+		highlights: ["Shared Market", "PVP Arena"]
 	},
 	{ 
 		name: "Planet Fixer", 
@@ -38,7 +38,7 @@ const projects : { name: string, description: string, image: string, github?: st
 		image: "assets/imgs/PF.png",
 		github: "https://github.com/AbsoluteTundra/GGJ2020Game",
 		youtube: "https://www.youtube.com/watch?v=kUbibp_TwiY&feature=youtu.be",
-		playstore: "https://play.google.com/store/apps/details?id=com.DreamingBig.PlanetFixer",
+		link: "https://play.google.com/store/apps/details?id=com.DreamingBig.PlanetFixer",
 		highlights: ["Procedural Planets"]
 	},
 	{ 
@@ -47,8 +47,8 @@ const projects : { name: string, description: string, image: string, github?: st
 		image: "assets/imgs/Squeenks.png",
 		github: "https://github.com/TheKaoser/squeenks",
 		youtube: "https://www.youtube.com/watch?v=5MPgeJTiENw",
-		playstore: "https://play.google.com/store/apps/details?id=com.DreamingBig.Squeenks",
-		highlights: ["Three competing AIs", "3D models/animations"]
+		link: "https://play.google.com/store/apps/details?id=com.DreamingBig.Squeenks",
+		highlights: ["Three AIs", "3D Art"]
 	},
 	{ 
 		name: "Fantastic Wars", 
@@ -56,8 +56,8 @@ const projects : { name: string, description: string, image: string, github?: st
 		image: "assets/imgs/FW.png",
 		github: "https://github.com/TheKaoser/fantastic-wars",
 		youtube: "https://www.youtube.com/watch?v=cqJkbaSanuE",
-		playstore: "https://play.google.com/store/apps/details?id=com.troncocaotico.fantasticwars",
-		highlights: ["FB Real Time Database", "AI Navigation", "Distribution Algorithm", "Pixel Art Animations"]
+		link: "https://play.google.com/store/apps/details?id=com.troncocaotico.fantasticwars",
+		highlights: ["RTS Online", "AI Navigation"]
 	},
 	{ 
 		name: "Three Kingdoms", 
@@ -65,7 +65,7 @@ const projects : { name: string, description: string, image: string, github?: st
 		image: "assets/imgs/TTK.png",
 		github: "https://github.com/TheKaoser/the-three-kingdoms",
 		youtube: "https://www.youtube.com/watch?v=wBYZ2-WWjaYgit",
-		highlights: ["TCP Server with logic", "Multi-threaded clients", "3D models/animations"]
+		highlights: ["TCP logical Server", "3D Art"]
 	},
 ];
 

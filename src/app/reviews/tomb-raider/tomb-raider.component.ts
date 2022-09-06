@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
 			Es una aventura lineal, repleta de animaciones de corta duración, momentos épicos de escalada con pico, saltos gigantes, tirolinas, cascadas, paracaídas y peleas sigilosas, de tiroteos, o cuerpo a cuerpo con el mismo pico. También contiene elementos de exploración opcionales como son sus tumbas, que esconden un tesoro tras un puzle; diversos desafíos de zona, como quemar banderas, recoger setas o destruir alarmas; y la recogida de reliquias y diarios con lore. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/TR/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/TR/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			La protagonista lucha usando 4 armas que irá desbloqueando y mejorando a tu gusto usando los recursos que recoges del suelo y enemigos. El arco, sigiloso y de largo alcance; la escopeta, mucho daño a corto alcance; el fusil, con buen daño a corto y largo alcance, sin ser demasiado preciso; y la pistola, que por no tener una función definida se queda un poco atrás. También emplea las habilidades que vas asignando según tus preferencias, que le permiten combatir y recolectar con mayor facilidad.

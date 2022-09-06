@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
 			Tras una historia sencilla y típica, basada en un virus que se extiende portando el mal, aparece espacio para varios escenarios con elementos y criaturas características. Cada partida que iniciemos los dispondrá de manera pseudo aleatoria añadiendo rejugabilidad a cambio de imperceptible pérdida de coherencia y propósito. Esto aplica también a jefes, con dos posibilidades por escenario, y a los objetos únicos, que al encontrar podremos quedarnos para siempre. Todo esto hace que podamos infiltrarnos en el mundo de nuestro compañero para ayudarle, sin renunciar a progresar y ser sorprendido. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Remnant/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/Remnant/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			El combate es ambicioso y logrado; Necesitaremos precisión para acertar los puntos débiles del enemigo con nuestro rifle, pistola, francotirador o ballesta, por mencionar algunas armas. También tendremos que administrar las balas cuidadosamente, alternando entre la principal y secundaria, e incluso nuestra arma a corto alcance. Sí, hasta de eso disponemos. 

@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			A pesar de todo, el mundo no ha cambiado; sólo los más ricos viven dentro del Strips y el resto de los mortales nos agrupamos para ayudarnos, como los Reyes o los seguidores del apocalipsis. Aunque también están los boomers, que viven al margen y sin usar la tecnología.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/FNV/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/FNV/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			¿Y tú qué? ¿Eres un lobo solitario o un tipo social? ¿Tienes vocación medicinal, o te decantas por la ciencia? ¿Puedes parar el tiempo para decidir a dónde disparar? ¿Quizá eres un manitas? Por favor, no me digas que te gusta robar cosas... O espiar…

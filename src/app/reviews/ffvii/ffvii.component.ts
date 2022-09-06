@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			Junto a 3 compañeros que varían a lo largo de la aventura, Cloud lucha contra la todopoderosa Shinra. En seguida, conocemos a sus compañeros Barret y Tifa, y aprendemos la dinámica del combate por turnos en la que cada uno tiene un ataque con su arma principal y una habilidad especial que se va recargando. Añadimos a las ranuras de sus armas principales y piezas de armadura materias, cuyo uso requiere maná. Las materias pueden hacer daño con distintos atributos, curar, comprobar la vida del enemigo o robar objetos. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/FFVII/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/FFVII/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Tras varios combates y diálogos en mapas variados paseados en chocobo, encontrar a Aeris, raptada por Shinra, y al emblemático perro Red XIII, conocemos a Sephiroth. Este es ex compañero de Cloud en un tiempo en que ambos trabajaban en la antagónica empresa. Desgraciadamente, Shinra modificó con su energía a Sephiroth, al igual que hacía con sus soldados, y ahora quiere usar ese poder para destruir no solo a Shinra, si no todo el planeta. Tras una dura batalla, Cloud vence a Sephiroth, aunque es demasiado tarde y Aeris se sacrifica por salvarlos a todos; era una Cetra.

@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			El objetivo es completar misiones, cada vez más complejas y largas, con cuatro de nuestros ciudadanos, preferiblemente con roles combinados. Las salas de cada uno de los posibles destinos se generan aleatoriamente, lo cual las convierte siempre en entretenidas. En el recorrido encontraremos enemigos con los que luchar y objetos con los que interaccionar, todo involucra riesgos y recompensas. Las misiones requerirán un manejo acertado del limitado inventario que compromete sublimemente las riquezas recibidas con la garantía de completar la misión.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/DD/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/DD/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Al llegar a una batalla, el factor aleatorio sigue apareciendo creando incertidumbre y tensión. Los personajes posiblemente atacarán ordenados por su velocidad, o quizá no. Llegado su turno, cada personaje puede activar una habilidad si su posición en su grupo es la adecuada. Estas afectarán las posiciones aliadas o enemigas que se especifiquen y tendrán efectos como alterar a favor o contra estadísticas propias o ajenas, modificar el orden de las formaciones y/o causar daños o efectos como hemorragia o infección. Todo con cierta probabilidad de impacto y de impacto crítico. Los defensores, tendrán una probabilidad de evasión, y una resistencia contra cada efecto. 

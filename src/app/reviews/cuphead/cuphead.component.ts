@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			En nuestra travesía encontramos distintos tipos de desafíos entre ellos jefes que se desarrollan en pantallas fijas o “ run and gun”, en los que hay que llegar de un punto A a un punto B separados por plataformas y enemigos.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Cuphead/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/Cuphead/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Durante cada desafío disponemos de tres vidas, otra elección clásica. Como herramientas defensivas tenemos un deslizamiento y un salto. Este puede ser doble si lo realizamos sobre algo rosa, destruyéndolo, cambiando su estado, o reanimándolo, si es el aliado. Y como armas, tenemos dos con cargador infinito y una habilidad súper que se va recargando, todo elegido entre nuestro arsenal antes de cada desafío. Además, podemos cambiar las reglas con amuletos, teniendo una vida extra a cambio de menos daño, un deslizamiento invulnerable o recargando más deprisa la habilidad súper.

@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
 			Ya tenemos la ecuación, y da mucho de sí. En Loop Hero combatimos enemigos con la curva de dificultad que decidamos, eventualmente retirándonos o muriendo. Los enemigos caídos sueltan piezas de equipamiento, atributos pasivos en forma de paisajes que decoran el exterior del “loop”, y obstáculos para colocar estratégicamente. Una trinidad que funciona muy bien y que dará pie a ideas y combinaciones innovadoras. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/LH/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/LH/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Retirarse a tiempo es clave. Cuando lo haces puedes llevar todo lo conseguido durante esa expedición a la base para aumentar atributos permanentes, crear objetos, desbloquear nuevas clases… Si mueres, la partida progresa un tercio de lo que lo hace si te retiras. Esa tensión, que crece tremendamente cuando tienes poca vida y es otra de las magias que ofrece el juego.

@@ -26,7 +26,7 @@ import { Component, OnInit } from '@angular/core';
 			La aventura se divide en varios actos con distintos escenarios de gran tamaño, repletos de misterios a los que viajamos en un barco mágico apodado Lady Venganza. En su transcurso, cada uno de los personajes intenta paulatinamente ascender para convertirse en la nueva Divinidad, capaz de usar una energía llamada fuente para mantener la paz de las 7 razas de Rivellon. Su intención es reemplazar al difunto Divino Lucían en su función de contener a los Eternos en el vacío, liderados por el Dios Rey y cada uno de los 7 dioses creadores de las razas ceden parte de su poder al Divino en forma de fuente para la causa. Sin embargo, una orden surgida y dirigida por el Maestre Alexandar se opone a la fuente y purga a todo usuario de la misma o ungido para evitar confrontaciones con el vacío.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Divinity2/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/Divinity2/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Nuestro viaje comienza en la isla de Fort Joy, a donde hemos sido llevados como ungidos. Tras escapar, iremos adquiriendo poder de la fuente y desvelando los secretos más oscuros. Descubriremos que los dioses crearon las razas para mantener su fuente a salvo y dotaron de mayor poder a los divinos como protectores del vacío. También hallaremos a Lucían, quien supo de la realidad hace años y se mantiene vivo y oculto de ellos en el interior de su propia tumba. Finalmente, podemos decidir unificar nuestro poder para que Lucían pueda contener el vacío, o decidir que uno de nuestro grupo ascienda a Divino, a través de diálogo o combate, según sus relaciones.
@@ -41,7 +41,7 @@ import { Component, OnInit } from '@angular/core';
 			Los personajes van equipándose a través de la recogida del botín de los enemigos, el comercio, el robo o la fabricación. Pueden tener armas de toda clase: desde palos a bastones mágicos con la capacidad de congelar al enemigo; armaduras de multitud de piezas, cada una con sus protecciones mágicas y físicas para evitar que el personaje reciba estados como la perforación de sus talones, la seducción o la conversión en pollo. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Divinity2/Classes.jpg">
+		<img class="review-image" src="assets/imgs/Divinity2/Classes.jpg">
 		<div class="review-paragraph">
 			<br>
 			Aparte, disponen de habilidades que te harán crecer alas si eres polimorfo, intercambiar la posición de dos personajes si eres mago o devolver a la vida un cadáver si eres nigromante. Y también, de atributos para cargar con más peso, persuadir a otros para obtener algún favor, hablar con animales, o acechar a un enemigo con el fin de robarle las llaves de la celda en la que se halla tu compañero.

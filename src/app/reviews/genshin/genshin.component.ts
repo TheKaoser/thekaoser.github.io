@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
 			Con unos gráficos de estilo de pocos y brillantes colores que enfatizan su temática de anime  japonés, Genshin dispone de amplias mecánicas de exploración del mundo como escalar, planear o nadar y multitud de zonas explorables ya sean puzzles para abrir cofres, jefes distribuidos por el mundo, misiones principales y secundarias o templos.  Un mundo que pide a gritos ser explorado.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Genshin/Fly.jpg">
+		<img class="review-image" src="assets/imgs/Genshin/Fly.jpg">
 		<div class="review-paragraph">
 			<br>
 			El personaje se puede intercambiar entre uno de los cuatro asignados en cualquier momento. Cada uno utiliza un tipo de arma: espada, lanza, claymore, arco o libro mágico, y dispone de dos habilidades que comparten elemento; una con cooldown y la otra obtenida al matar enemigos. Los elementos se pueden combinar, tanto entre tus personajes como con los de los enemigos, para crear nuevos efectos de daño. Por ejemplo, el agua y la electricidad sobrecargan o el viento propaga el fuego… Algo original y efectivo para hacer que el cambio entre personajes sea la mejor alternativa.
@@ -25,7 +25,7 @@ import { Component, OnInit } from '@angular/core';
 			La manera de conseguir los personajes es sin duda el punto más controvérsico. Se trata de un gachapon en el que tocan aleatoriamente armas o personajes. Aquí entran los pagos del juego, aunque también se pueden conseguir jugando. La parte positiva es que ningún personaje o arma es irremplazable y están balanceados para poder hacer un equipo con varias combinaciones. Dicho esto, yo me decanto a favor del sistema, ya que es completamente opcional.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Genshin/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/Genshin/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Hay varias formas para mejorar personajes. La primera es la más obvia: jugar con ellos, que puede sustituirse por el uso de unos pergaminos. La última forma consiste en invertir copias repetidas del personaje para desbloquear constelaciones que lo hacen un poco más eficiente. Aparte, se pueden equipar artefactos para mejorar ciertas virtudes como el daño o la vida. Estos artefactos y las armas se pueden subir de nivel a través de ciertos objetos que, al igual que los pergaminos, se consiguen a través de la exploración del mundo.

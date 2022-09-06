@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			La historia nos lleva por el reino de alternativos caminos para dominar de nuevo a las bestias divinas. La forma de hacerlo es destruir la corrupción que las posee desde su interior y revivir el alma del guerrero que las custodiaba. Reunido el suficiente poder, a considerar por el jugador, se puede enfrentar a Ganon y tratar de salvar a Zelda para restaurar el reino.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/BOTW/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/BOTW/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Aparte de los elementos mencionados, el mapa guarda santuarios, torres Sheika, campamentos de enemigos y misiones secundarias. Los santuarios son entretenidos puzles que se resuelven a través de las habilidades de las que dispongamos, combinadas con ingenio. Su recompensa es sencilla: puntos para mejorar el máximo de vida o estamina usada para escalar, volar o combatir. Las torres confieren visión sobre el mapa circundante al escalarse y sirven como puntos de teletransporte.

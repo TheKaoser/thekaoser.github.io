@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			El nivel está oculto, se sube en todos los modos y determina el poder de las armas y armaduras que recibimos. Hay desafíos que se pueden adquirir y completar mientras se desarrollan otras actividades cuyas recompensas son objetos de mejora de equipamiento para fusionar un equipo con otro de mayor poder para adquirir el primero con el poder del segundo. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Destiny/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/Destiny/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			El armamento consiste en un arma principal, una secundaria y otra especial. Tanto la secundaria como la especial tienen un atributo asignado que puede ser arco, vacío o solar y que sirve para destruir los escudos de protección de esos tipos de algunos enemigos y nos hará cambiar de arma según el enemigo. Hay también tres tipos de munición, que se recoge automáticamente al matar enemigos y nos forzará a ir alternando entre las armas. Conceptos que agregan diversión y habilidad.

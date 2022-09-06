@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 			Para moverse entre escenarios, existen vehículos que pueden disparar a las bestias del camino y que hacen respirar exitosamente del bucle de juego. 
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/Borderlands2/Gameplay.jpg">
+		<img class="review-image" src="assets/imgs/Borderlands2/Gameplay.jpg">
 		<div class="review-paragraph">
 			<br>
 			Al comenzar, escogemos uno de los 6 personajes. Un aspecto sobre todo apreciado en el online, donde experimentamos sus sinergias. Cada uno tiene su propio aspecto variable, una habilidad única como una torreta, invisibilidad o un orbe que absorbe enemigos y 3 árboles de habilidades entre los que elegir. Como es de esperar, tenemos un nivel, que desbloquea drops más poderosos y puntos de habilidad para invertir en dichos árboles. 

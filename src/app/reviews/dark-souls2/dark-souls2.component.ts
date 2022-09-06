@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
 			Lo primero que llama la atención no es negativo: son los escenarios. La entrada a Majula es impresionante y la música culmina el instante en el que los últimos rayos de luz, detenidos para siempre, nos hacen sentir como en casa. Al mismo tiempo, se percibe la desolación del exterior; un primer aviso de que sigue siendo un Dark Souls.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/DS2/Majula.jpg">
+		<img class="review-image" src="assets/imgs/DS2/Majula.jpg">
 		<div class="review-quote-right"><br>Escenarios con narrativa</div>
 		<div class="review-paragraph">
 			<br>
@@ -26,7 +26,7 @@ import { Component, OnInit } from '@angular/core';
 			Todas las historias pertenecen a una global. Sigue siendo relativamente incógnita y escondida, reservada para los más curiosos. Como no podía ser de otra manera, empezamos siendo lo más bajo, un no muerto o hueco, que vaga por el destrozado reino de Drangleic, donde coexisten diversas criaturas con diferentes almas y voluntades. Gracias a una serie de personajes, entre los que se encuentra el Heraldo Esmeralda, descubrimos que existe una forma de devolver el reino a la prosperidad que antaño poseía. Para ello deberemos derrotar a algunas de las criaturas con almas más poderosas que atormentan varias zonas. Pero el origen del problema no reside sobre estas criaturas.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/DS2/Vendrick.jpg">
+		<img class="review-image" src="assets/imgs/DS2/Vendrick.jpg">
 		<div class="review-paragraph">
 			<br>
 			Fue el propio rey Vendrick, cuya avaricia llevó a conquistar a los gigantes para obtener incluso un mayor poder en tiempos pasados y que ahora se guarda ese poder para sí mismo, nublando el reino. Sin embargo, al llegar junto a Vendrick descubriremos que no es más que un debilucho. Este momento es impresionante, ya que esperas la aparición del más poderoso de los jefes. Nashandra, la reina, lo había manipulado para atacar a los gigantes y es la que conserva todo su poder. Si logramos vencerla podemos dar nuestra vida para que el reino sea próspero mientras vivamos, sin asegurar que regresen los tiempos indeseables en el futuro. Una historia de lo más melancólica, que inspira desolación y está, una vez más, al nivel de lo esperado.
@@ -41,7 +41,7 @@ import { Component, OnInit } from '@angular/core';
 			En los atuendos, también hay elección. Desde armaduras ligera, con baja protección y gran agilidad, a pesada, que funciona al contrario. Complementada correctamente con los atributos que nos dan al subir de nivel como vida, estamina, magia o daño, podemos gozar del equipo de nuestros sueños. Otro punto en el que no se queda atrás.
 			<br><br>
 		</div>
-		<img class="review-image-center" src="assets/imgs/DS2/Builds.jpg">
+		<img class="review-image" src="assets/imgs/DS2/Builds.jpg">
 		<div class="review-paragraph">
 			<br>
 			El combate sigue siendo sublime. Requiere atención sobre las acciones del enemigo para esquivarlas o bloquearlas. Cada golpe sufrido es condicionante y puede llevar a la muerte. Esta hace que se regeneren todos los enemigos (excepto los jefes) y que tus almas (la moneda) permanezcan en el suelo hasta que las recojas o desaparezcan si mueres. A pesar de ello, es probable que algunos enemigos, normalmente jefes, se resistan y requieran varios intentos. Tensión y perseverancia. Por esto mismo, en todo momento hay varias zonas disponibles para descansar y volver al cabo de unos niveles o equipaciones nuevas.

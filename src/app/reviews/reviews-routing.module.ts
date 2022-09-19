@@ -49,11 +49,16 @@ import { TesoComponent } from './teso/teso.component';
 import { ZeldaBotwComponent } from './zelda-botw/zelda-botw.component';
 import { SekiroComponent } from './sekiro/sekiro.component';
 import { SeaOfThievesComponent } from './sea-of-thieves/sea-of-thieves.component';
+import { DragonAgeOriginsComponent } from './dragon-age-origins/dragon-age-origins.component';
 
 const routes: Routes = [
   {
     path: '',
     component: ReviewsComponent
+  },
+  {
+    path: 'dragon-age-origins',
+    component: DragonAgeOriginsComponent
   },
   {
     path: 'zelda-ocarina-of-time',

@@ -1,5 +1,13 @@
 const games: { name: string, date: number, company: string, rating: number, image: string, link: string }[] = [
 	{
+		name: "Dragon Age: Origins",
+		date: 2010,
+		company: "BioWare",
+		rating: 8,
+		image: "assets/imgs/DAO/Header.jpg",
+		link: "dragon-age-origins",
+	},
+	{
 		name: "Zelda: Ocarina of Time",
 		date: 1998,
 		company: "Nintendo",

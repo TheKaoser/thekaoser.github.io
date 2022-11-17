@@ -1,5 +1,13 @@
 const games: { name: string, date: number, company: string, rating: number, image: string, link: string }[] = [
 	{
+		name: "XCOM 2",
+		date: 2016,
+		company: "Fireaxis Games",
+		rating: 8,
+		image: "assets/imgs/XCOM2/Header.jpg",
+		link: "xcom2",
+	},
+	{
 		name: "Dragon Age: Origins",
 		date: 2010,
 		company: "BioWare",

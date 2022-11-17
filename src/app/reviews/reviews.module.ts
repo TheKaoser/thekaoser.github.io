@@ -50,6 +50,7 @@ import { ZeldaBotwComponent } from './zelda-botw/zelda-botw.component';
 import { SekiroComponent } from './sekiro/sekiro.component';
 import { SeaOfThievesComponent } from './sea-of-thieves/sea-of-thieves.component';
 import { DragonAgeOriginsComponent } from './dragon-age-origins/dragon-age-origins.component';
+import { Xcom2Component } from './xcom2/xcom2.component';
 
 
 @NgModule({
@@ -101,7 +102,8 @@ import { DragonAgeOriginsComponent } from './dragon-age-origins/dragon-age-origi
     ZeldaBotwComponent,
     SekiroComponent,
     SeaOfThievesComponent,
-    DragonAgeOriginsComponent
+    DragonAgeOriginsComponent,
+    Xcom2Component
   ],
   imports: [
     CommonModule,

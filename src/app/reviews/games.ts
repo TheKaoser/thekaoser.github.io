@@ -1,5 +1,13 @@
 const games: { name: string, date: number, company: string, rating: number, image: string, link: string }[] = [
 	{
+		name: "Vampire Survivors",
+		date: 2022,
+		company: "poncle",
+		rating: 6,
+		image: "assets/imgs/VS/Header.jpg",
+		link: "vampire-survivors",
+	},
+	{
 		name: "XCOM 2",
 		date: 2016,
 		company: "Fireaxis Games",

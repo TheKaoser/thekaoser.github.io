@@ -51,6 +51,7 @@ import { SekiroComponent } from './sekiro/sekiro.component';
 import { SeaOfThievesComponent } from './sea-of-thieves/sea-of-thieves.component';
 import { DragonAgeOriginsComponent } from './dragon-age-origins/dragon-age-origins.component';
 import { Xcom2Component } from './xcom2/xcom2.component';
+import { VampireSurvivorsComponent } from './vampire-survivors/vampire-survivors.component';
 
 
 @NgModule({
@@ -103,7 +104,8 @@ import { Xcom2Component } from './xcom2/xcom2.component';
     SekiroComponent,
     SeaOfThievesComponent,
     DragonAgeOriginsComponent,
-    Xcom2Component
+    Xcom2Component,
+    VampireSurvivorsComponent
   ],
   imports: [
     CommonModule,

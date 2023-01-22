@@ -1,5 +1,13 @@
 const games: { name: string, date: number, company: string, rating: number, image: string, link: string }[] = [
 	{
+		name: "Outer Wilds",
+		date: 2020,
+		company: "Mobius Digital",
+		rating: 8,
+		image: "assets/imgs/OuterWilds/Header.jpg",
+		link: "outer-wilds",
+	},
+	{
 		name: "Vampire Survivors",
 		date: 2022,
 		company: "poncle",

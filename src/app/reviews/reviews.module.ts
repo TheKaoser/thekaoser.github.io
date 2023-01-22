@@ -52,6 +52,7 @@ import { SeaOfThievesComponent } from './sea-of-thieves/sea-of-thieves.component
 import { DragonAgeOriginsComponent } from './dragon-age-origins/dragon-age-origins.component';
 import { Xcom2Component } from './xcom2/xcom2.component';
 import { VampireSurvivorsComponent } from './vampire-survivors/vampire-survivors.component';
+import { OuterwildsComponent } from './outerwilds/outerwilds.component';
 
 
 @NgModule({
@@ -105,7 +106,8 @@ import { VampireSurvivorsComponent } from './vampire-survivors/vampire-survivors
     SeaOfThievesComponent,
     DragonAgeOriginsComponent,
     Xcom2Component,
-    VampireSurvivorsComponent
+    VampireSurvivorsComponent,
+    OuterwildsComponent
   ],
   imports: [
     CommonModule,

@@ -53,11 +53,16 @@ import { DragonAgeOriginsComponent } from './dragon-age-origins/dragon-age-origi
 import { Xcom2Component } from './xcom2/xcom2.component';
 import { VampireSurvivorsComponent } from './vampire-survivors/vampire-survivors.component';
 import { OuterwildsComponent } from './outerwilds/outerwilds.component';
+import { FrostpunkComponent } from './frostpunk/frostpunk.component';
 
 const routes: Routes = [
   {
     path: '',
     component: ReviewsComponent
+  },
+  {
+    path: 'frostpunk',
+    component: FrostpunkComponent
   },
   {
     path: 'outer-wilds',

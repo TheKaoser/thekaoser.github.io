@@ -53,6 +53,7 @@ import { DragonAgeOriginsComponent } from './dragon-age-origins/dragon-age-origi
 import { Xcom2Component } from './xcom2/xcom2.component';
 import { VampireSurvivorsComponent } from './vampire-survivors/vampire-survivors.component';
 import { OuterwildsComponent } from './outerwilds/outerwilds.component';
+import { FrostpunkComponent } from './frostpunk/frostpunk.component';
 
 
 @NgModule({
@@ -107,7 +108,8 @@ import { OuterwildsComponent } from './outerwilds/outerwilds.component';
     DragonAgeOriginsComponent,
     Xcom2Component,
     VampireSurvivorsComponent,
-    OuterwildsComponent
+    OuterwildsComponent,
+    FrostpunkComponent
   ],
   imports: [
     CommonModule,

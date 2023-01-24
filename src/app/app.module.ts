@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common'
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -17,7 +19,6 @@ import { ReviewListComponent } from './reviews/review-list/review-list.component
 import { AboutReviewsComponent } from './reviews/about-reviews/about-reviews.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { AboutWebsiteComponent } from './home/about-website/about-website.component';
-import { DarkestDungeonComponent } from './reviews/darkest-dungeon/darkest-dungeon.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,7 @@ import { DarkestDungeonComponent } from './reviews/darkest-dungeon/darkest-dunge
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

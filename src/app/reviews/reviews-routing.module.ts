@@ -54,11 +54,16 @@ import { Xcom2Component } from './xcom2/xcom2.component';
 import { VampireSurvivorsComponent } from './vampire-survivors/vampire-survivors.component';
 import { OuterwildsComponent } from './outerwilds/outerwilds.component';
 import { FrostpunkComponent } from './frostpunk/frostpunk.component';
+import { Diablo4Component } from './diablo4/diablo4.component';
 
 const routes: Routes = [
   {
     path: '',
     component: ReviewsComponent
+  },
+  {
+    path: 'diablo4',
+    component: Diablo4Component
   },
   {
     path: 'frostpunk',

@@ -1,5 +1,13 @@
 const games: { name: string, date: number, company: string, rating: number, image: string, link: string }[] = [
 	{
+		name: "Diablo IV",
+		date: 2023,
+		company: "Blizzard Entertainment",
+		rating: 8,
+		image: "assets/imgs/Diablo4/Header.jpg",
+		link: "diablo4",
+	},
+	{
 		name: "Frostpunk",
 		date: 2018,
 		company: "11 bit studios",

@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-dragon-age-origins',
   template: `
-    <img src="assets/imgs/DAO/Header.jpg">
+    <div class="splashart">
+      <img src="assets/imgs/DAO/Header.jpg">
+    </div>
     <p class="title">Dragon Age: Origins</p>	
     <div class="review-detail">
       <div class="review-first-letter">

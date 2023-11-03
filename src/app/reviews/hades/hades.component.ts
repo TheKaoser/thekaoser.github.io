@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-hades',
   template: `
-    <img src="assets/imgs/Hades/Header.png">
+	<div class="splashart">
+    	<img src="assets/imgs/Hades/Header.png">
+	</div>
 	<p class="title">Hades</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

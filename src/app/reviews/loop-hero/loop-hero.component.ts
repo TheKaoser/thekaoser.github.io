@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-loop-hero',
   template: `
-    <img src="assets/imgs/LH/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/LH/Header.jpg">
+	</div>
 	<p class="title">Loop Hero</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

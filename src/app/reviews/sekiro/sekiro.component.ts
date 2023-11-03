@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-sekiro',
   template: `
-    <img src="assets/imgs/Sekiro/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/Sekiro/Header.jpg">
+	</div>
 	<p class="title">Sekiro: Shadows Die Twice</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

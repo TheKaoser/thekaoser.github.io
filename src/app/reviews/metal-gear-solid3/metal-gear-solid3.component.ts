@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-metal-gear-solid3',
   template: `
-    <img src="assets/imgs/MGS3/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/MGS3/Header.jpg">
+	</div>
 	<p class="title">Metal Gear Solid 3: Snake Eater</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

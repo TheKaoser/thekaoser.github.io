@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-bdo',
   template: `
-    <img src="assets/imgs/BDO/Header.jpg">
+    <div class="splashart">
+    	<img src="assets/imgs/BDO/Header.jpg">
+	</div>
 	<p class="title">Black Desert Online</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

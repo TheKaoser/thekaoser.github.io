@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-zelda-ocarina-of-time',
   template: `
-    <img src="assets/imgs/ZOT/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/ZOT/Header.jpg">
+	</div>
 	<p class="title">Zelda: Ocarina of Time</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

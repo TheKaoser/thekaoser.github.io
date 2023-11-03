@@ -3,7 +3,9 @@
 @Component({
   selector: 'app-far-cry3',
   template: `
-    <img src="assets/imgs/FC3/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/FC3/Header.jpg">
+	</div>
 	<p class="title">Far Cry 3</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

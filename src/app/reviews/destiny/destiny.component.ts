@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-destiny',
   template: `
-    <img src="assets/imgs/Destiny/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/Destiny/Header.jpg">
+	</div>
 	<p class="title">Destiny 2</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

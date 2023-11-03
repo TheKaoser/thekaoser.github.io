@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-genshin',
   template: `
-    <img src="assets/imgs/Genshin/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/Genshin/Header.jpg">
+	</div>
 	<p class="title">Genshin Impact</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

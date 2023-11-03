@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-darkest-dungeon',
   template: `
-    <img src="assets/imgs/DD/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/DD/Header.jpg">
+	</div>
 	<p class="title">Darkest Dungeon</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

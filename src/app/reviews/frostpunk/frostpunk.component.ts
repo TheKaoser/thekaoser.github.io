@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-frostpunk',
   template: `
-    <img src="assets/imgs/Frostpunk/Header.jpg">
+    <div class="splashart">
+      <img src="assets/imgs/Frostpunk/Header.jpg">
+    </div>
     <p class="title">Frostpunk</p>
     <div class="review-detail">
       <div class="review-first-letter">

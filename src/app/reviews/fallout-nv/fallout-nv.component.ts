@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-fallout-nv',
   template: `
-    <img src="assets/imgs/FNV/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/FNV/Header.jpg">
+	</div>
 	<p class="title">Fallout: New Vegas</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

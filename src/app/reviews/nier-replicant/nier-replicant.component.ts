@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-nier-replicant',
   template: `
-    <img src="assets/imgs/NR/Header.png">
+	<div class="splashart">
+    	<img src="assets/imgs/NR/Header.png">
+	</div>
 	<p class="title">Nier Replicant Ver.1.22474487139...</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

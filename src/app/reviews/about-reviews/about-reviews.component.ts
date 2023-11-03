@@ -3,8 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
 	selector: 'app-about-reviews',
 	template: `
-		<img class="splashart" src="assets/imgs/Reviews.png">
-		<p class="title">Reviews</p>
+	<div class="splashart"> 
+		<img src="assets/imgs/Reviews.png">
+	</div>
+	<p class="title">Reviews</p>
   `,
 	styles: [
 	]

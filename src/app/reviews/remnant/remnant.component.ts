@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-remnant',
   template: `
-    <img src="assets/imgs/Remnant/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/Remnant/Header.jpg">
+	</div>
 	<p class="title">Remnant: From the Ashes</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

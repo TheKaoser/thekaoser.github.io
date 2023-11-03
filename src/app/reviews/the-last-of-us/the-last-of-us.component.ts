@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-the-last-of-us',
   template: `
-    <img src="assets/imgs/TLOU/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/TLOU/Header.jpg">
+	</div>
 	<p class="title">The Last of Us</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

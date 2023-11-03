@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-bioshock',
   template: `
-    <img src="assets/imgs/Bioshock/Header.jpg">
+  	<div class="splashart">
+    	<img src="assets/imgs/Bioshock/Header.jpg">
+	</div>
 	<p class="title">Bioshock</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

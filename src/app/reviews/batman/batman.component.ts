@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-batman',
   template: `
-    <img src="assets/imgs/Batman/Header.jpg">
+    <div class="splashart">
+    	<img src="assets/imgs/Batman/Header.jpg">
+  	</div>
 	<p class="title">Batman: Arkham Asylum</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

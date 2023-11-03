@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-sea-of-thieves',
   template: `
-    <img src="assets/imgs/SOT/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/SOT/Header.jpg">
+	</div>
 	<p class="title">Sea of Thieves</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

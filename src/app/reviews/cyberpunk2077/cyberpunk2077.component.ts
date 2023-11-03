@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-cyberpunk2077',
   template: `
-    <img src="assets/imgs/CP2077/Header.png">
+  	<div class="splashart">
+    	<img src="assets/imgs/CP2077/Header.png">
+	</div>
 	<p class="title">Cyberpunk 2077</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-teso',
   template: `
-    <img src="assets/imgs/TESO/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/TESO/Header.jpg">
+	</div>
 	<p class="title">The Elder Scrolls Online</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

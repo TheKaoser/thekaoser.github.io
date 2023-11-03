@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-doom',
   template: `
-    <img src="assets/imgs/Doom/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/Doom/Header.jpg">
+	</div>
 	<p class="title">Doom</p>	
 	<div class="review-detail">
 		<div class="review-first-letter">

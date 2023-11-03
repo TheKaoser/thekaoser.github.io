@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-hollow-knight',
   template: `
-    <img src="assets/imgs/HK/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/HK/Header.jpg">
+	</div>
 	<p class="title">Hollow Knight</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

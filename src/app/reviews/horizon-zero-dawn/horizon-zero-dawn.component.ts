@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-horizon-zero-dawn',
   template: `
-    <img src="assets/imgs/HZD/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/HZD/Header.jpg">
+	</div>
 	<p class="title">Horizon Zero Dawn</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

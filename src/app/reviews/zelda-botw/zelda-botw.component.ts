@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-zelda-botw',
   template: `
-    <img src="assets/imgs/BOTW/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/BOTW/Header.jpg">
+	</div>
 	<p class="title">The Legend of Zelda: Breath of the Wild</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

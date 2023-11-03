@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-into-the-breach',
   template: `
-    <img src="assets/imgs/ITB/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/ITB/Header.jpg">
+	</div>
 	<p class="title">Into the Breach</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

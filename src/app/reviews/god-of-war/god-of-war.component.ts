@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-god-of-war',
   template: `
-    <img src="assets/imgs/GOW/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/GOW/Header.jpg">
+	</div>
 	<p class="title">God of War</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

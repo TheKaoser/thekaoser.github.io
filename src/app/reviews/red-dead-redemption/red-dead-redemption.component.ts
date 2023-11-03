@@ -1,9 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+	import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-red-dead-redemption',
   template: `
-    <img src="assets/imgs/RDR/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/RDR/Header.jpg">
+	</div>
 	<p class="title">Red Dead Redemption</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
 	selector: 'app-about-me',
 	template: `
-	<img class="splashart" src="assets/imgs/SplashArt.png">
+	<div class="splashart"> 
+		<img src="assets/imgs/SplashArt.png">
+	</div>
 	<p class="title">Rodrigo Alonso</p>
     <div id="about-me">
 		<div id="me-text">

@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-nier-automata',
   template: `
-    <img src="assets/imgs/NierAut/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/NierAut/Header.jpg">
+	</div>
 	<p class="title">Nier: Automata</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
 	selector: 'app-lost-ark',
 	template: `
-		<img src="assets/imgs/LA/LAHeader.png">
+		<div class="splashart">
+			<img src="assets/imgs/LA/LAHeader.png">
+		</div>
 		<p class="title">Lost Ark</p>
 		<div class="review-detail">
 			<div class="review-first-letter">

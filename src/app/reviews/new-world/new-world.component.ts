@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
 	selector: 'app-new-world',
 	template: `
-  		<img src="assets/imgs/NW/NWHeader.jpg">
+		<div class="splashart">
+  			<img src="assets/imgs/NW/NWHeader.jpg">
+		</div>
 		<p class="title">New World</p>
 		<div class="review-detail">
 			<div class="review-intro">	

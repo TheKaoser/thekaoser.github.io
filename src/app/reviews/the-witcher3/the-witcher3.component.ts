@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-the-witcher3',
   template: `
-    <img src="assets/imgs/TW3/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/TW3/Header.jpg">
+	</div>
 	<p class="title">The Witcher 3</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

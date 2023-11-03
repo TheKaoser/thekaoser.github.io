@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-ori',
   template: `
-    <img src="assets/imgs/Ori/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/Ori/Header.jpg">
+	</div>
 	<p class="title">Ori and the Blind Forest</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

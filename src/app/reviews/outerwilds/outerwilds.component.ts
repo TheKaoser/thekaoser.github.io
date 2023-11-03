@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-outerwilds',
   template: `
-    <img src="assets/imgs/OuterWilds/Header.jpg">
+    <div class="splashart">
+      <img src="assets/imgs/OuterWilds/Header.jpg">
+    </div>
     <p class="title">Outer Wilds</p>
     <div class="review-detail">
       <div class="review-first-letter">

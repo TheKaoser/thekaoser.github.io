@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-xcom2',
   template: `
-    <img src="assets/imgs/XCOM2/Header.jpg">
+    <div class="splashart">
+      <img src="assets/imgs/XCOM2/Header.jpg">
+    </div>
     <p class="title">XCOM 2</p>
     <div class="review-detail">
       <div class="review-first-letter">

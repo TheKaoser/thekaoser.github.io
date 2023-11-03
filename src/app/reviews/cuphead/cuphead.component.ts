@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-cuphead',
   template: `
-    <img src="assets/imgs/Cuphead/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/Cuphead/Header.jpg">
+	</div>
 	<p class="title">Cuphead</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

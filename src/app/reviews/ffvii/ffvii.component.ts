@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-ffvii',
   template: `
-    <img src="assets/imgs/FFVII/Header.png">
+	<div class="splashart">
+    	<img src="assets/imgs/FFVII/Header.png">
+	</div>
 	<p class="title">Final Fantasy VII</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

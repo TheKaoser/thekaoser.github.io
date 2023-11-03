@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-warzone',
   template: `
-    <img src="assets/imgs/Warzone/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/Warzone/Header.jpg">
+	</div>
 	<p class="title">Warzone</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

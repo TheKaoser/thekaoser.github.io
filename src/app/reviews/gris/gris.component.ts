@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-gris',
   template: `
-    <img src="assets/imgs/GRIS/Header.jpg">
+	<div class="splashart">
+    	<img src="assets/imgs/GRIS/Header.jpg">
+	</div>
 	<p class="title">GRIS</p>
 	<div class="review-detail">
 		<div class="review-first-letter">

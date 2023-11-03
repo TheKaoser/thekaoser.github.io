@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-diablo4',
   template: `
-    <img src="assets/imgs/Diablo4/Header.jpg">
+    <div class="splashart">
+      <img src="assets/imgs/Diablo4/Header.jpg">
+    </div>
     <p class="title">Diablo IV</p>
     <div class="review-detail">
       <div class="review-first-letter">

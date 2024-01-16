@@ -11,14 +11,14 @@ import { Component, OnInit } from '@angular/core';
 		<div id="me-text">
 			<div class="is-bold big-text">DEVELOPER & PLAYER</div>
 			<div class="is-italic small-text">
-				From Playmobil, Magic: The Gathering or Warhammer, I have always enjoyed playing games and creating them. 
+				From Playmobil, Magic cards and Warhammer, I have always enjoyed playing and imagining games. 
 				<br><br>				
-				It was already before starting Computer Science BA that I knew I wanted to base my career on creating video games, to create other worlds only limited by imagination. 
-				For this, I specialized in it through a Master's degree afterwards.
+				It was before studying Computer Science that I knew I wanted to base my career creating these worlds only limited by imagination...
+				And so, I jumped into a Master's degree in Games right after finishing it.
 				<br><br>
-				I have more than 10 games built from scratch. They have taught me the fundamentals of game design, team collaboration, some 2D and 3D art, and above all, to become a better programmer. 
+				I also started working profesionally creating small games and now I work in Indra on full flight simulators.
 				<br><br>
-				Now I work happily at Spearhead studios creating small games and waiting for new opportunities.
+				Over these years, I have crafted more than 10 games from scratch. They have taught me the fundamentals of game design, team collaboration, art and development. 
 			</div>
 		</div>
 		<div id="photo"><img src="assets/imgs/Rodrigo.png"></div>

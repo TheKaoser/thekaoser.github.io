@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 	selector: 'app-about-me',
 	template: `
 	<div class="splashart"> 
-		<img src="assets/imgs/SplashArt.png">
+		<img class="main-img" src="assets/imgs/SplashArt.png">
 	</div>
 	<p class="title">Rodrigo Alonso</p>
     <div id="about-me">
@@ -21,15 +21,15 @@ import { Component, OnInit } from '@angular/core';
 				Over these years, I have crafted more than 10 games from scratch. They have taught me the fundamentals of game design, team collaboration, art and development. 
 			</div>
 		</div>
-		<div id="photo"><img src="assets/imgs/Rodrigo.png"></div>
+		<div id="photo-div"><img id="photo-img" src="assets/imgs/Rodrigo.png"></div>
     </div>
   `,
 	styles: [
-		'#about-me { display: flex; margin: auto; margin-bottom: 5%; width: clamp(350px, 70%, 70%); justify-content: space-between; align-items: center; }',
-		'#me-text { color: white; text-align: justify; }',
-		'#photo { margin-top: -100px; margin-left: 5%; border-radius: 10px; }',
-		'@media screen and (max-width: 1200px){ #about-me { flex-direction: column; } #me-text{ width: 70%; } #photo{ margin-top: 0px; margin-left: 0%; width: 70%; }}',
-		'@media screen and (min-width: 1200px){ #me-text{ width: 60%; } #photo{ width: 40%; }}',
+		'#about-me { width: 70%; display: flex; margin: auto; margin-bottom: 5%; justify-content: space-between; }',
+		'#me-text { display: flex; flex-direction: column; justify-content: center; width: 40%; color: white; text-align: justify; }',
+		'#photo-div { display: flex; flex-direction: column; justify-content: center; margin-top: -100px; margin-left: 5%; width: clamp(500px, 30%, 30%)}',
+		'#photo-img { border-radius: 10px; }',
+		'@media screen and (max-width: 1200px){ #about-me { flex-direction: column; } #me-text{ width: 90%; margin: auto } #photo-div{ margin: auto; width: 90%; }}',
 	]
 })
 

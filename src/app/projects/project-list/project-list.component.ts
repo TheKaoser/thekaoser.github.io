@@ -42,8 +42,8 @@ import projects from '../projects';
 		'#project-highlights { position: absolute; display: flex; width: 70%; margin-left: 5%; }',
 		'#project-highlight { display: flex; margin-right: 5px; margin-bottom: 5px; width: 22.5%; height: clamp(30px, 5vw, 60px); background-color: #6b2cff; color: white; border-radius: 10px; }',
 		'#highlight-text { margin: auto; }',
-		'@media screen and (max-width: 1200px){ #project-components { flex-direction: column; } #project-image { width: 100%; } #project-texts{ width: 90%; } #project-highlight{ width: 85%; } #project-highlights{ flex-direction: column; } #project{ margin-bottom: 20%; }}',
-		'@media screen and (min-width: 1200px){ #project-image { width: 50%; } #project-texts{ width: 60% }}',
+		'@media screen and (max-width: 1200px){ #project-components { flex-direction: column; } #project-image { width: 100%; } #project-texts{ width: 90%; } #project-highlight{ width: 85%; margin: auto; } #project-highlights{ flex-direction: column; justify-content: center; margin: auto; width: 90%; } #project{ width: 90%; margin-bottom: 20%; }}',
+		'@media screen and (min-width: 1200px){ #project-image { width: 50%; } #project-texts{ width: 60%; } #project { width: 70%; }}',
 	]
 })
 export class ProjectListComponent implements OnInit {	

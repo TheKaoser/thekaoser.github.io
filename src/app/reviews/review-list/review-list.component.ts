@@ -42,7 +42,7 @@ import games from '../games';
 		'#review-list-title { flex: 2; color: white; }',
 		'#review-list-company { flex: 1; color: white; }',
 		'#review-list-date { flex: 3; color: white; }',
-		'#review-list-rating { flex: 1; align-self: center; color: white; }',
+		'#review-list-rating { flex: 1; align-self: left; color: white; }',
 		'#review-list-image { border-radius: 10px; object-fit: contain; }',
 		'@media screen and (max-width: 1200px){ #review-components { flex-direction: column; } #review-list-image { width: 100%; } #review-texts{ width: 90% }}',
 		'@media screen and (min-width: 1200px){ #review-list-image { width: 40%; } #review-texts{ width: 60% }}',

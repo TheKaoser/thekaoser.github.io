@@ -38,7 +38,7 @@ import projects from '../projects';
 		'#project-title { color: white; }',
 		'#project-description { color: white; }',
 		'#project-image { border-radius: 10px; object-fit: contain; }',
-		'#project-links { align-self: center; color: white; }',
+		'#project-links { align-self: left; color: white; }',
 		'#project-highlights { position: absolute; display: flex; width: 70%; margin-left: 5%; }',
 		'#project-highlight { display: flex; margin-right: 5px; margin-bottom: 5px; width: 22.5%; height: clamp(30px, 5vw, 60px); background-color: #6b2cff; color: white; border-radius: 10px; }',
 		'#highlight-text { margin: auto; }',

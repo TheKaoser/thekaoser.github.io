@@ -1,5 +1,13 @@
 const projects : { name: string, description: string, image: string, github?: string, youtube?: string, link?: string, highlights: string[] }[] = [ 
 	{ 
+		name: "Get'em", 
+		description : "It's time to put the sheep in their pen, collaborate with another shepherd to enclose them before dangers loom over them.", 
+		image: "assets/imgs/Get'em.png",
+		github: "https://github.com/TheKaoser/get-em",
+		link: "https://globalgamejam.org/games/2024/get-it-them-2",
+		highlights: ["Local Multiplayer", "Levels"]
+	},
+	{ 
 		name: "Sucked Souls", 
 		description : "The undead can endlessly try to recover humanity by stealing souls... But being a human atracts evil.", 
 		image: "assets/imgs/SuckedSouls.png",

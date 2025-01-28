@@ -25,8 +25,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 	skills : { name: string, description: string, image: string }[] = [ 
-		{ name: "Passionate for coding", description : "From high level architecture to low level details", image: "assets/imgs/Skill_1.png" }, 
-		{ name: "Object Oriented", description: "In C++, C#, Typescript and Python", image: "assets/imgs/Skill_2.png" },
+		{ name: "Passionate for Coding", description : "From high level architecture to low level details", image: "assets/imgs/Skill_1.png" }, 
+		{ name: "Passionate for Game Design", description: "That is, helping the player achieve a great experience", image: "assets/imgs/Skill_2.png" },
 		{ name: "Involved in", description: "Networking, Web, Databases, Multi-Threading, Machine Learning...", image: "assets/imgs/Skill_3.png" },
 	];
 

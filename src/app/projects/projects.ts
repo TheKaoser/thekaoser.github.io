@@ -1,5 +1,13 @@
 const projects : { name: string, description: string, image: string, github?: string, youtube?: string, link?: string, highlights: string[] }[] = [ 
 	{ 
+		name: "Fatal: Unleashed Darkness", 
+		description : "My current and biggest project. Leading the programming team and game design. We'll be sharing more details soon", 
+		image: "assets/imgs/fatal.png",
+		github: "https://github.com/ProjectSelene/fatal-unleashed-darkness",
+		link: "https://selenegames.com/",
+		highlights: ["Story Driven", "Puzzles"]
+	},
+	{ 
 		name: "Get'em", 
 		description : "It's time to put the sheep in their pen, collaborate with another shepherd to enclose them before dangers loom over them.", 
 		image: "assets/imgs/Get'em.png",

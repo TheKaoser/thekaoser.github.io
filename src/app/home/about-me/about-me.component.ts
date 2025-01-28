@@ -11,14 +11,14 @@ import { Component, OnInit } from '@angular/core';
 		<div id="me-text">
 			<div class="is-bold big-text">DEVELOPER & PLAYER</div>
 			<div class="is-italic small-text">
-				From Playmobil, Magic cards and Warhammer, I have always enjoyed playing and imagining games. 
+				<br>
+				From Playmobil, Magic: The Gathering and Warhammer, I've always loved playing games and imagining new worlds.
 				<br><br>				
-				It was before studying Computer Science that I knew I wanted to base my career creating these worlds only limited by imagination...
-				And so, I jumped into a Master's degree in Games right after finishing it.
+				Even before studying Computer Science, I knew I wanted to build a career creating immersive experiences limited only by imagination. That passion led me to pursue a Master's degree in Game Development immediately after earning my degree.
 				<br><br>
-				I also started working profesionally creating small games and now I work in Indra on full flight simulators.
+				Currently, I'm part of my biggest game project: <b>Fatal: Unleashed Darkness</b>, where I lead the programming team and contribute to the game design.
 				<br><br>
-				Over these years, I have crafted more than 10 games from scratch. They have taught me the fundamentals of game design, team collaboration, art and development. 
+				Over the years, I've built more than 10 games from scratch, often participating in game jams along the way. Each project has been a valuable lesson in game design, team collaboration, art, and development.
 			</div>
 		</div>
 		<div id="photo-div"><img id="photo-img" src="assets/imgs/Rodrigo.png"></div>

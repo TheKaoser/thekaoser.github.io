@@ -16,6 +16,7 @@ import projects from '../projects';
 						<div id="project-links">
 							<a *ngIf="project.github" href={{project.github}} target="_blank"><img src="assets/icons/GitHub.png"></a>
 							<a *ngIf="project.youtube" class="ml-6" href={{project.youtube}} target="_blank"><img src="assets/icons/Youtube.png"></a>
+							<a *ngIf="project.gdd" class="ml-6" href={{project.gdd}} target="_blank"><img src="assets/icons/GDD.png"></a>
 							<br><br>
 						</div>
 					</div>
@@ -47,7 +48,7 @@ import projects from '../projects';
 	]
 })
 export class ProjectListComponent implements OnInit {	
-	projects: { name: string, description: string, image: string, github?: string, youtube?: string, link?: string, highlights: string[] }[];
+	projects: { name: string, description: string, image: string, github?: string, youtube?: string, gdd?: string, link?: string, highlights: string[] }[];
 
 	constructor() { 
 		this.projects = projects;

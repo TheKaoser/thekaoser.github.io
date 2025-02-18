@@ -1,4 +1,4 @@
-const projects : { name: string, description: string, image: string, github?: string, youtube?: string, link?: string, highlights: string[] }[] = [ 
+const projects : { name: string, description: string, image: string, github?: string, youtube?: string, gdd?: string, link?: string, highlights: string[] }[] = [ 
 	{ 
 		name: "Fatal: Unleashed Darkness", 
 		description : "My current and biggest project. Leading the programming team and game design. We'll be sharing more details soon", 
@@ -45,6 +45,7 @@ const projects : { name: string, description: string, image: string, github?: st
 		image: "assets/imgs/BasicRPG.png",
 		github: "https://github.com/TheKaoser/basic-rpg",
 		youtube: "https://www.youtube.com/watch?v=S8x_KV-txLo",
+		gdd: "https://docs.google.com/document/d/1SxjPpwq83R7odQxX4AFcUub99vJhrqGgd_ABC8UGlz0/edit?usp=sharing",
 		link: "https://play.google.com/store/apps/details?id=com.dreamingbig.basicrpg",
 		highlights: ["Shared Market", "PVP Arena"]
 	},
@@ -72,6 +73,7 @@ const projects : { name: string, description: string, image: string, github?: st
 		image: "assets/imgs/FW.png",
 		github: "https://github.com/TheKaoser/fantastic-wars",
 		youtube: "https://www.youtube.com/watch?v=cqJkbaSanuE",
+		gdd: "https://docs.google.com/document/d/1bHRl48fJPMHmf06XG3-Jzskx57DajT367B8vh_i0LHE/edit?usp=sharing",
 		link: "https://play.google.com/store/apps/details?id=com.troncocaotico.fantasticwars",
 		highlights: ["RTS Online", "AI Navigation"]
 	},

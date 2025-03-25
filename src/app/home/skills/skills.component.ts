@@ -20,6 +20,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [
 	'#skill-cards { display: flex; width: 70%; margin: auto; justify-content: space-between; margin-bottom: 5%; }',
 	'#skill-card { width: 25%; background-color: #6f56ff; color: white; border-radius: 10px; }',
+	'#skill-card:hover { transform: scale(1.05); transition: transform 0.2s ease-in-out; }',
 	'@media screen and (max-width: 1000px){ #skill-cards { flex-direction: column; align-items: center; } #skill-card { width: 60%; margin-bottom: 5%; }}',
   ]
 })

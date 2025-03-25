@@ -25,11 +25,11 @@ import { Component, OnInit } from '@angular/core';
     </div>
   `,
 	styles: [
-		'#about-me { width: 70%; display: flex; margin: auto; margin-bottom: 5%; justify-content: space-between; }',
-		'#me-text { display: flex; flex-direction: column; justify-content: center; width: 40%; color: white; text-align: justify; }',
-		'#photo-div { display: flex; flex-direction: column; justify-content: center; margin-top: -100px; margin-left: 5%; width: clamp(500px, 30%, 30%)}',
-		'#photo-img { border-radius: 10px; }',
-		'@media screen and (max-width: 1200px){ #about-me { flex-direction: column; } #me-text{ width: 90%; margin: auto } #photo-div{ margin: auto; width: 90%; }}',
+		'#about-me { width: 90%; display: flex; margin: auto; margin-bottom: 5%; justify-content: center; align-items: center; gap: 5%; }',
+		'#me-text { display: flex; flex-direction: column; justify-content: center; width: 45%; color: white; text-align: justify; }',
+		'#photo-div { display: flex; flex-direction: column; justify-content: center; width: 30%; margin: 0; }',
+		'#photo-img { border-radius: 10px; width: 100%; }',
+		'@media screen and (max-width: 1200px){ #about-me { flex-direction: column; } #me-text{ width: 90%; margin: auto; } #photo-div{ margin: auto; width: 90%; }}',
 	]
 })
 

@@ -37,6 +37,7 @@ import games from '../games';
 		'#review-filter-type { background-color: #6f56ff; height: 4vh; width: 45%; margin-bottom: 5%; border-radius: 10px; color: white; padding: 1px 1rem 3px 5px; }',
 		'#review-list { display: flex; flex-direction: column; align-items: center; width: 100%; margin-bottom: 10%; }',
 		'#review-element { position: relative; width: 70%; background-color: #6f56ff; border-radius: 10px; margin-bottom: 5%; }',
+		'#review-element:hover { transform: scale(1.05); transition: transform 0.3s ease-in-out; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); }',
 		'#review-components { display: flex; justify-content: space-between; }',
 		'#review-texts { display: flex; flex-direction: column; margin: 2%; }',
 		'#review-list-title { flex: 2; color: white; }',

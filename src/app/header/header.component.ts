@@ -27,7 +27,7 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 		'#header { position: sticky; top: 0px; }',
 		'#navbarSocials { padding: 0; justify-content: flex-end; }',
 		'#socials { display: flex; justify-content: flex-end; margin: 0; background-color: black; }',
-		'.navbar-item:hover { background-color: transparent; }'
+		'.navbar-item:hover { background-color: transparent; transform: scale(1.3); transition: transform 0.2s ease-in-out; }'
     ]
 })
 

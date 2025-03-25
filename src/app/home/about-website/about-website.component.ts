@@ -31,6 +31,7 @@ import { Component, OnInit } from '@angular/core';
 	styles: [
 		'#about-list { display: flex; flex-direction: column; align-items: center; width: 100% }',
 		'.about-element { position: relative; width: 70%; background-color: #6f56ff; border-radius: 10px; margin-bottom: 10%; }',
+		'.about-element:hover { transform: scale(1.05); transition: transform 0.2s ease-in-out; }',
 		'.about-components { display: flex; justify-content: space-between; }',
 		'.about-texts { display: flex; flex-direction: column; margin: 5%; width: 25%; }',
 		'#about-text-left { color: white; }',

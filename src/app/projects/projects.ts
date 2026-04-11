@@ -1,6 +1,15 @@
 import { Project } from './project.model';
 
 export const projects: Project[] = [ 
+	{
+		name: "Daimonia",
+		description: "You arrive in a utopian frog village where joy and chores are plenty. A cheerful mentor teaches you the ancient secrets of the pond, but as you peel back the layers of this amphibious paradise, you realize the community's joy is built on a foundation of shadows.",
+		role: "Lead Programmer & Game Designer - Small indie team",
+		engine: "Unreal Engine 5",
+		image: "assets/imgs/Daimonia.png",
+		link: "https://thekaoser.itch.io/daimonia/download/jT_gSER8pEcMdSxvU83qCIVFOTxPw3KWrBdDSo3S",
+		highlights: ["GAS", "Animation"]
+	},
 	{ 
 		name: "Fatal: Unleashed Darkness", 
 		description : "In a remote, desolate place, bizarre events unfold, driving our character to the brink of madness.", 

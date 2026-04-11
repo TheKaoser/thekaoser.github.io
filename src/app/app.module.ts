@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
 
 import { HashLocationStrategy, LocationStrategy } from '@angular/common'
 
@@ -14,10 +13,6 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutProjectsComponent } from './projects/about-projects/about-projects.component';
 import { ProjectListComponent } from './projects/project-list/project-list.component';
-import { ReviewListComponent } from './reviews/review-list/review-list.component';
-
-import { AboutReviewsComponent } from './reviews/about-reviews/about-reviews.component';
-import { ReviewsComponent } from './reviews/reviews.component';
 import { AboutWebsiteComponent } from './home/about-website/about-website.component';
 
 @NgModule({
@@ -31,15 +26,11 @@ import { AboutWebsiteComponent } from './home/about-website/about-website.compon
     ProjectsComponent,
     AboutProjectsComponent,
     ProjectListComponent,
-    ReviewListComponent,
-    AboutReviewsComponent,
-    ReviewsComponent,
     AboutWebsiteComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]

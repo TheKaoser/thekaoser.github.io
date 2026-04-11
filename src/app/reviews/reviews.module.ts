@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { ReviewsRoutingModule } from './reviews-routing.module';
+import { ReviewsComponent } from './reviews.component';
+import { AboutReviewsComponent } from './about-reviews/about-reviews.component';
+import { ReviewListComponent } from './review-list/review-list.component';
 import { NewWorldComponent } from './new-world/new-world.component';
 import { LostArkComponent } from './lost-ark/lost-ark.component';
 import { RemnantComponent } from './remnant/remnant.component';
@@ -24,6 +28,7 @@ import { MetalGearSolid3Component } from './metal-gear-solid3/metal-gear-solid3.
 import { Starcraft2Component } from './starcraft2/starcraft2.component';
 import { PokemonZafiroComponent } from './pokemon-zafiro/pokemon-zafiro.component';
 import { DoomComponent } from './doom/doom.component';
+import { DarkestDungeonComponent } from './darkest-dungeon/darkest-dungeon.component';
 import { Cyberpunk2077Component } from './cyberpunk2077/cyberpunk2077.component';
 import { CupheadComponent } from './cuphead/cuphead.component';
 import { DarkSouls2Component } from './dark-souls2/dark-souls2.component';
@@ -59,6 +64,9 @@ import { Diablo4Component } from './diablo4/diablo4.component';
 
 @NgModule({
   declarations: [
+    ReviewsComponent,
+    AboutReviewsComponent,
+    ReviewListComponent,
     NewWorldComponent,
     LostArkComponent,
     RemnantComponent,
@@ -111,10 +119,12 @@ import { Diablo4Component } from './diablo4/diablo4.component';
     VampireSurvivorsComponent,
     OuterwildsComponent,
     FrostpunkComponent,
-    Diablo4Component
+    Diablo4Component,
+    DarkestDungeonComponent,
   ],
   imports: [
     CommonModule,
+    FormsModule,
     ReviewsRoutingModule
   ]
 })

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-gris',
@@ -29,11 +29,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class GrisComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class GrisComponent {
 
 }

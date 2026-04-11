@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-cyberpunk2077',
@@ -51,11 +51,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class Cyberpunk2077Component implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class Cyberpunk2077Component {
 
 }

@@ -1,4 +1,6 @@
-const projects : { name: string, description: string, role: string, engine: string, image: string, github?: string, youtube?: string, gdd?: string, link?: string, highlights: string[] }[] = [ 
+import { Project } from './project.model';
+
+export const projects: Project[] = [ 
 	{ 
 		name: "Fatal: Unleashed Darkness", 
 		description : "In a remote, desolate place, bizarre events unfold, driving our character to the brink of madness.", 
@@ -107,5 +109,3 @@ const projects : { name: string, description: string, role: string, engine: stri
 		highlights: ["TCP logical Server", "3D Art"]
 	},
 ];
-
-export default projects;

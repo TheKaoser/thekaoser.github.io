@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-warzone',
@@ -39,11 +39,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class WarzoneComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class WarzoneComponent {
 
 }

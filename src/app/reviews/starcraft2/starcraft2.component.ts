@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-starcraft2',
@@ -33,11 +33,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class Starcraft2Component implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class Starcraft2Component {
 
 }

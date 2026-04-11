@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-dishonored',
@@ -25,11 +25,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class DishonoredComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class DishonoredComponent {
 
 }

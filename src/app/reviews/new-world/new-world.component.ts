@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'app-new-world',
@@ -69,11 +69,6 @@ import { Component, OnInit } from '@angular/core';
 	styles: [
 	]
 })
-export class NewWorldComponent implements OnInit {
-
-	constructor() { }
-
-	ngOnInit(): void {
-	}
+export class NewWorldComponent {
 
 }

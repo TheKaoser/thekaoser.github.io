@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'app-lost-ark',
@@ -60,11 +60,6 @@ import { Component, OnInit } from '@angular/core';
 	styles: [
 	]
 })
-export class LostArkComponent implements OnInit {
-
-	constructor() { }
-
-	ngOnInit(): void {
-	}
+export class LostArkComponent {
 
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-frostpunk',
@@ -37,11 +37,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class FrostpunkComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class FrostpunkComponent {
 
 }

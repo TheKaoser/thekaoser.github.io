@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-destiny',
@@ -35,11 +35,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class DestinyComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class DestinyComponent {
 
 }

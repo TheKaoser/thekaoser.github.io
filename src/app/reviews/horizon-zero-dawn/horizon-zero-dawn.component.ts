@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-horizon-zero-dawn',
@@ -37,11 +37,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class HorizonZeroDawnComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class HorizonZeroDawnComponent {
 
 }

@@ -1,4 +1,6 @@
-const games: { name: string, date: number, company: string, rating: number, image: string, link: string }[] = [
+import { Game } from './game.model';
+
+export const games: Game[] = [
 	{
 		name: "Diablo IV",
 		date: 2023,
@@ -432,5 +434,3 @@ const games: { name: string, date: number, company: string, rating: number, imag
 		link: "sea-of-thieves",
 	},
 ];
-
-export default games;

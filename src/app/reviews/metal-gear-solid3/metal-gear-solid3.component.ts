@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-metal-gear-solid3',
@@ -35,11 +35,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class MetalGearSolid3Component implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class MetalGearSolid3Component {
 
 }

@@ -9,9 +9,5 @@ import { Component } from '@angular/core';
         
     <app-footer></app-footer>
   `,
-  styles: [
-  ]
 })
-export class AppComponent {
-  title = 'portfolio';
-}
+export class AppComponent { }

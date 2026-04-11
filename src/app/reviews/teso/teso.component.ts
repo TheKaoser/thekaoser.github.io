@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-teso',
@@ -47,11 +47,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class TesoComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class TesoComponent {
 
 }

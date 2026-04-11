@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-tomb-raider',
@@ -33,11 +33,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class TombRaiderComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class TombRaiderComponent {
 
 }

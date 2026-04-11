@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-the-last-of-us2',
@@ -49,11 +49,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class TheLastOfUs2Component implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class TheLastOfUs2Component {
 
 }

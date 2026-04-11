@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-god-of-war',
@@ -41,11 +41,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class GodOfWarComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class GodOfWarComponent {
 
 }

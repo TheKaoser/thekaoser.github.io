@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
     selector: 'app-header',
@@ -31,17 +31,13 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
     ]
 })
 
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
     @ViewChild('navBurger') navBurger!: ElementRef;
     @ViewChild('navMenu') navMenu!: ElementRef;
 
-    toggleNavbar() {
+    toggleNavbar(): void {
         this.navBurger.nativeElement.classList.toggle('is-active');
         this.navMenu.nativeElement.classList.toggle('is-active');
     }
-
-    constructor() { }
-
-    ngOnInit(): void { }
 }
 

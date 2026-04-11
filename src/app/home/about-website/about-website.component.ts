@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'app-about-website',
@@ -41,11 +41,4 @@ import { Component, OnInit } from '@angular/core';
 		'@media screen and (min-width: 1200px){ .about-image { width: 50%; } .about-texts{ width: 60% }}',
 	]
 })
-export class AboutWebsiteComponent implements OnInit {
-
-	constructor() { }
-
-	ngOnInit(): void {
-	}
-
-}
+export class AboutWebsiteComponent { }

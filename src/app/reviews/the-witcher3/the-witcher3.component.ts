@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-the-witcher3',
@@ -43,11 +43,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class TheWitcher3Component implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class TheWitcher3Component {
 
 }
